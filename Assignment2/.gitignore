@@ -52,20 +52,6 @@ Thumbs.db
 *.bak
 *.cache
 
-# Large data files
-*.csv
-*.json
-*.pkl
-
-# Plots
-*.pdf
-*.png
-*.jpg
-*.svg
-
-# Exceptions: Keep example/template files
-!assignment-2.pdf
-
 # Docker
 .dockerignore
 

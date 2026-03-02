@@ -1,0 +1,6117 @@
+[
+  {
+    "server": "bouygues.iperf.fr:5201",
+    "server_host": "bouygues.iperf.fr",
+    "server_port": 5201,
+    "host": "bouygues.iperf.fr",
+    "port": 5201,
+    "duration": 60,
+    "total_bytes": 37786113,
+    "avg_throughput": 5038152.921166667,
+    "avg_throughput_bps": 5038152.921166667,
+    "avg_throughput_mbps": 5.038833333333333,
+    "min_throughput_mbps": 2.25,
+    "max_throughput_mbps": 9.61,
+    "median_throughput_mbps": 4.779999999999999,
+    "p95_throughput_mbps": 7.560999999999999,
+    "throughput_samples": [
+      [
+        0.0,
+        3728017.2
+      ],
+      [
+        1.0,
+        4829525.03
+      ],
+      [
+        2.0,
+        4495165.21
+      ],
+      [
+        3.0,
+        5650663.32
+      ],
+      [
+        4.0,
+        5318683.02
+      ],
+      [
+        5.0,
+        4963983.7
+      ],
+      [
+        6.0,
+        2250240.79
+      ],
+      [
+        7.0,
+        3190623.49
+      ],
+      [
+        8.0,
+        3977453.48
+      ],
+      [
+        9.0,
+        4098360.41
+      ],
+      [
+        10.0,
+        4114928.77
+      ],
+      [
+        11.0,
+        4453352.09
+      ],
+      [
+        12.0,
+        5405717.59
+      ],
+      [
+        13.0,
+        5652480.33
+      ],
+      [
+        14.0,
+        5376126.05
+      ],
+      [
+        15.0,
+        4836935.24
+      ],
+      [
+        16.0,
+        5535512.18
+      ],
+      [
+        17.0,
+        3319326.89
+      ],
+      [
+        18.0,
+        2916079.61
+      ],
+      [
+        19.0,
+        3230671.24
+      ],
+      [
+        20.0,
+        2982446.76
+      ],
+      [
+        21.0,
+        2862857.97
+      ],
+      [
+        22.0,
+        3966520.51
+      ],
+      [
+        23.0,
+        3697557.07
+      ],
+      [
+        24.0,
+        3317183.6
+      ],
+      [
+        25.0,
+        3175848.85
+      ],
+      [
+        26.0,
+        4103692.47
+      ],
+      [
+        27.0,
+        4075115.85
+      ],
+      [
+        28.0,
+        4549003.79
+      ],
+      [
+        29.0,
+        4798801.78
+      ],
+      [
+        30.0,
+        4524830.88
+      ],
+      [
+        31.0,
+        4455183.23
+      ],
+      [
+        32.0,
+        5238842.56
+      ],
+      [
+        33.0,
+        4659526.36
+      ],
+      [
+        34.0,
+        4618932.46
+      ],
+      [
+        35.0,
+        6306083.74
+      ],
+      [
+        36.0,
+        6447331.92
+      ],
+      [
+        37.0,
+        6328417.49
+      ],
+      [
+        38.0,
+        6684278.08
+      ],
+      [
+        39.0,
+        8209205.58
+      ],
+      [
+        40.0,
+        7418029.09
+      ],
+      [
+        41.0,
+        9612291.87
+      ],
+      [
+        42.0,
+        7546337.4
+      ],
+      [
+        43.0,
+        4755637.86
+      ],
+      [
+        44.0,
+        4060977.36
+      ],
+      [
+        45.0,
+        4054430.69
+      ],
+      [
+        46.0,
+        4211351.63
+      ],
+      [
+        47.0,
+        4522839.2
+      ],
+      [
+        48.0,
+        4828605.87
+      ],
+      [
+        49.0,
+        4708091.37
+      ],
+      [
+        50.0,
+        5192846.68
+      ],
+      [
+        51.0,
+        5107159.97
+      ],
+      [
+        52.0,
+        5059638.78
+      ],
+      [
+        53.0,
+        6467734.33
+      ],
+      [
+        54.0,
+        5737072.09
+      ],
+      [
+        55.0,
+        6599076.11
+      ],
+      [
+        56.0,
+        7521429.45
+      ],
+      [
+        57.0,
+        7488450.31
+      ],
+      [
+        58.0,
+        7774375.8
+      ],
+      [
+        59.0,
+        7277292.82
+      ]
+    ],
+    "tcp_stats": [
+      {
+        "timestamp": 0.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 10,
+        "ssthresh": 65535,
+        "rtt_ms": 31.37,
+        "rttvar_ms": 2.86,
+        "retrans": 0,
+        "bytes_acked": 466002,
+        "bytes_sent": 489302,
+        "throughput_bps": 3728017.2,
+        "throughput_mbps": 3.73,
+        "pacing_rate": 4473620.64,
+        "delivered": 0,
+        "lost": 0
+      },
+      {
+        "timestamp": 1.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 11,
+        "ssthresh": 65535,
+        "rtt_ms": 28.32,
+        "rttvar_ms": 6.79,
+        "retrans": 0,
+        "bytes_acked": 603690,
+        "bytes_sent": 633875,
+        "throughput_bps": 4829525.03,
+        "throughput_mbps": 4.83,
+        "pacing_rate": 5795430.03,
+        "delivered": 603690,
+        "lost": 0
+      },
+      {
+        "timestamp": 2.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 12,
+        "ssthresh": 65535,
+        "rtt_ms": 28.36,
+        "rttvar_ms": 2.69,
+        "retrans": 0,
+        "bytes_acked": 561895,
+        "bytes_sent": 589990,
+        "throughput_bps": 4495165.21,
+        "throughput_mbps": 4.5,
+        "pacing_rate": 5394198.25,
+        "delivered": 1123791,
+        "lost": 0
+      },
+      {
+        "timestamp": 3.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 12,
+        "ssthresh": 65535,
+        "rtt_ms": 28.09,
+        "rttvar_ms": 4.88,
+        "retrans": 0,
+        "bytes_acked": 706332,
+        "bytes_sent": 741649,
+        "throughput_bps": 5650663.32,
+        "throughput_mbps": 5.65,
+        "pacing_rate": 6780795.98,
+        "delivered": 2118998,
+        "lost": 0
+      },
+      {
+        "timestamp": 4.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 12,
+        "ssthresh": 65535,
+        "rtt_ms": 31.42,
+        "rttvar_ms": 9.54,
+        "retrans": 0,
+        "bytes_acked": 664835,
+        "bytes_sent": 698077,
+        "throughput_bps": 5318683.02,
+        "throughput_mbps": 5.32,
+        "pacing_rate": 6382419.62,
+        "delivered": 2659341,
+        "lost": 0
+      },
+      {
+        "timestamp": 5.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 12,
+        "ssthresh": 65535,
+        "rtt_ms": 30.9,
+        "rttvar_ms": 4.36,
+        "retrans": 0,
+        "bytes_acked": 620497,
+        "bytes_sent": 651522,
+        "throughput_bps": 4963983.7,
+        "throughput_mbps": 4.96,
+        "pacing_rate": 5956780.44,
+        "delivered": 3102489,
+        "lost": 0
+      },
+      {
+        "timestamp": 6.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 7,
+        "ssthresh": 6,
+        "rtt_ms": 30.53,
+        "rttvar_ms": 4.61,
+        "retrans": 1,
+        "bytes_acked": 281280,
+        "bytes_sent": 295344,
+        "throughput_bps": 2250240.79,
+        "throughput_mbps": 2.25,
+        "pacing_rate": 2700288.94,
+        "delivered": 1687680,
+        "lost": 1460
+      },
+      {
+        "timestamp": 7.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 8,
+        "ssthresh": 6,
+        "rtt_ms": 29.22,
+        "rttvar_ms": 7.26,
+        "retrans": 1,
+        "bytes_acked": 398827,
+        "bytes_sent": 418769,
+        "throughput_bps": 3190623.49,
+        "throughput_mbps": 3.19,
+        "pacing_rate": 3828748.18,
+        "delivered": 2791795,
+        "lost": 1460
+      },
+      {
+        "timestamp": 8.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 10,
+        "ssthresh": 6,
+        "rtt_ms": 30.23,
+        "rttvar_ms": 7.4,
+        "retrans": 1,
+        "bytes_acked": 497181,
+        "bytes_sent": 522040,
+        "throughput_bps": 3977453.48,
+        "throughput_mbps": 3.98,
+        "pacing_rate": 4772944.18,
+        "delivered": 3977453,
+        "lost": 1460
+      },
+      {
+        "timestamp": 9.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 10,
+        "ssthresh": 6,
+        "rtt_ms": 30.82,
+        "rttvar_ms": 6.77,
+        "retrans": 1,
+        "bytes_acked": 512295,
+        "bytes_sent": 537909,
+        "throughput_bps": 4098360.41,
+        "throughput_mbps": 4.1,
+        "pacing_rate": 4918032.5,
+        "delivered": 4610655,
+        "lost": 1460
+      },
+      {
+        "timestamp": 10.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 12,
+        "ssthresh": 6,
+        "rtt_ms": 30.81,
+        "rttvar_ms": 9.3,
+        "retrans": 1,
+        "bytes_acked": 514366,
+        "bytes_sent": 540084,
+        "throughput_bps": 4114928.77,
+        "throughput_mbps": 4.11,
+        "pacing_rate": 4937914.53,
+        "delivered": 5143660,
+        "lost": 1460
+      },
+      {
+        "timestamp": 11.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 12,
+        "ssthresh": 6,
+        "rtt_ms": 31.55,
+        "rttvar_ms": 1.68,
+        "retrans": 1,
+        "bytes_acked": 556669,
+        "bytes_sent": 584502,
+        "throughput_bps": 4453352.09,
+        "throughput_mbps": 4.45,
+        "pacing_rate": 5344022.51,
+        "delivered": 6123359,
+        "lost": 1460
+      },
+      {
+        "timestamp": 12.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 12,
+        "ssthresh": 6,
+        "rtt_ms": 28.57,
+        "rttvar_ms": 8.89,
+        "retrans": 1,
+        "bytes_acked": 675714,
+        "bytes_sent": 709500,
+        "throughput_bps": 5405717.59,
+        "throughput_mbps": 5.41,
+        "pacing_rate": 6486861.11,
+        "delivered": 8108576,
+        "lost": 1460
+      },
+      {
+        "timestamp": 13.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 13,
+        "ssthresh": 6,
+        "rtt_ms": 28.1,
+        "rttvar_ms": 6.86,
+        "retrans": 1,
+        "bytes_acked": 706560,
+        "bytes_sent": 741888,
+        "throughput_bps": 5652480.33,
+        "throughput_mbps": 5.65,
+        "pacing_rate": 6782976.39,
+        "delivered": 9185280,
+        "lost": 1460
+      },
+      {
+        "timestamp": 14.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 13,
+        "ssthresh": 6,
+        "rtt_ms": 30.71,
+        "rttvar_ms": 9.78,
+        "retrans": 1,
+        "bytes_acked": 672015,
+        "bytes_sent": 705616,
+        "throughput_bps": 5376126.05,
+        "throughput_mbps": 5.38,
+        "pacing_rate": 6451351.26,
+        "delivered": 9408220,
+        "lost": 1460
+      },
+      {
+        "timestamp": 15.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 13,
+        "ssthresh": 6,
+        "rtt_ms": 29.83,
+        "rttvar_ms": 9.12,
+        "retrans": 1,
+        "bytes_acked": 604616,
+        "bytes_sent": 634847,
+        "throughput_bps": 4836935.24,
+        "throughput_mbps": 4.84,
+        "pacing_rate": 5804322.29,
+        "delivered": 9069253,
+        "lost": 1460
+      },
+      {
+        "timestamp": 16.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 14,
+        "ssthresh": 6,
+        "rtt_ms": 31.76,
+        "rttvar_ms": 2.31,
+        "retrans": 1,
+        "bytes_acked": 691939,
+        "bytes_sent": 726535,
+        "throughput_bps": 5535512.18,
+        "throughput_mbps": 5.54,
+        "pacing_rate": 6642614.61,
+        "delivered": 11071024,
+        "lost": 1460
+      },
+      {
+        "timestamp": 17.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 7,
+        "ssthresh": 7,
+        "rtt_ms": 30.24,
+        "rttvar_ms": 9.66,
+        "retrans": 2,
+        "bytes_acked": 414915,
+        "bytes_sent": 435661,
+        "throughput_bps": 3319326.89,
+        "throughput_mbps": 3.32,
+        "pacing_rate": 3983192.26,
+        "delivered": 7053569,
+        "lost": 2920
+      },
+      {
+        "timestamp": 18.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 6,
+        "ssthresh": 7,
+        "rtt_ms": 31.71,
+        "rttvar_ms": 6.19,
+        "retrans": 2,
+        "bytes_acked": 364509,
+        "bytes_sent": 382735,
+        "throughput_bps": 2916079.61,
+        "throughput_mbps": 2.92,
+        "pacing_rate": 3499295.53,
+        "delivered": 6561179,
+        "lost": 2920
+      },
+      {
+        "timestamp": 19.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 7,
+        "ssthresh": 7,
+        "rtt_ms": 28.74,
+        "rttvar_ms": 6.39,
+        "retrans": 2,
+        "bytes_acked": 403833,
+        "bytes_sent": 424025,
+        "throughput_bps": 3230671.24,
+        "throughput_mbps": 3.23,
+        "pacing_rate": 3876805.49,
+        "delivered": 7672844,
+        "lost": 2920
+      },
+      {
+        "timestamp": 20.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 7,
+        "ssthresh": 7,
+        "rtt_ms": 29.81,
+        "rttvar_ms": 6.05,
+        "retrans": 2,
+        "bytes_acked": 372805,
+        "bytes_sent": 391446,
+        "throughput_bps": 2982446.76,
+        "throughput_mbps": 2.98,
+        "pacing_rate": 3578936.11,
+        "delivered": 7456116,
+        "lost": 2920
+      },
+      {
+        "timestamp": 21.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 8,
+        "ssthresh": 7,
+        "rtt_ms": 30.26,
+        "rttvar_ms": 3.53,
+        "retrans": 2,
+        "bytes_acked": 357857,
+        "bytes_sent": 375750,
+        "throughput_bps": 2862857.97,
+        "throughput_mbps": 2.86,
+        "pacing_rate": 3435429.57,
+        "delivered": 7515002,
+        "lost": 2920
+      },
+      {
+        "timestamp": 22.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 9,
+        "ssthresh": 7,
+        "rtt_ms": 30.85,
+        "rttvar_ms": 3.46,
+        "retrans": 2,
+        "bytes_acked": 495815,
+        "bytes_sent": 520605,
+        "throughput_bps": 3966520.51,
+        "throughput_mbps": 3.97,
+        "pacing_rate": 4759824.61,
+        "delivered": 10907931,
+        "lost": 2920
+      },
+      {
+        "timestamp": 23.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 8,
+        "ssthresh": 7,
+        "rtt_ms": 30.09,
+        "rttvar_ms": 9.48,
+        "retrans": 2,
+        "bytes_acked": 462194,
+        "bytes_sent": 485304,
+        "throughput_bps": 3697557.07,
+        "throughput_mbps": 3.7,
+        "pacing_rate": 4437068.48,
+        "delivered": 10630476,
+        "lost": 2920
+      },
+      {
+        "timestamp": 24.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 7,
+        "ssthresh": 7,
+        "rtt_ms": 31.89,
+        "rttvar_ms": 9.15,
+        "retrans": 2,
+        "bytes_acked": 414647,
+        "bytes_sent": 435380,
+        "throughput_bps": 3317183.6,
+        "throughput_mbps": 3.32,
+        "pacing_rate": 3980620.32,
+        "delivered": 9951550,
+        "lost": 2920
+      },
+      {
+        "timestamp": 25.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 8,
+        "ssthresh": 7,
+        "rtt_ms": 31.55,
+        "rttvar_ms": 1.25,
+        "retrans": 2,
+        "bytes_acked": 396981,
+        "bytes_sent": 416830,
+        "throughput_bps": 3175848.85,
+        "throughput_mbps": 3.18,
+        "pacing_rate": 3811018.62,
+        "delivered": 9924527,
+        "lost": 2920
+      },
+      {
+        "timestamp": 26.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 9,
+        "ssthresh": 7,
+        "rtt_ms": 28.17,
+        "rttvar_ms": 8.12,
+        "retrans": 2,
+        "bytes_acked": 512961,
+        "bytes_sent": 538609,
+        "throughput_bps": 4103692.47,
+        "throughput_mbps": 4.1,
+        "pacing_rate": 4924430.97,
+        "delivered": 13337000,
+        "lost": 2920
+      },
+      {
+        "timestamp": 27.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 9,
+        "ssthresh": 7,
+        "rtt_ms": 31.02,
+        "rttvar_ms": 6.89,
+        "retrans": 2,
+        "bytes_acked": 509389,
+        "bytes_sent": 534858,
+        "throughput_bps": 4075115.85,
+        "throughput_mbps": 4.08,
+        "pacing_rate": 4890139.02,
+        "delivered": 13753516,
+        "lost": 2920
+      },
+      {
+        "timestamp": 28.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 9,
+        "ssthresh": 7,
+        "rtt_ms": 28.53,
+        "rttvar_ms": 4.42,
+        "retrans": 2,
+        "bytes_acked": 568625,
+        "bytes_sent": 597056,
+        "throughput_bps": 4549003.79,
+        "throughput_mbps": 4.55,
+        "pacing_rate": 5458804.55,
+        "delivered": 15921513,
+        "lost": 2920
+      },
+      {
+        "timestamp": 29.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 10,
+        "ssthresh": 7,
+        "rtt_ms": 28.62,
+        "rttvar_ms": 7.14,
+        "retrans": 2,
+        "bytes_acked": 599850,
+        "bytes_sent": 629842,
+        "throughput_bps": 4798801.78,
+        "throughput_mbps": 4.8,
+        "pacing_rate": 5758562.13,
+        "delivered": 17395656,
+        "lost": 2920
+      },
+      {
+        "timestamp": 30.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 10,
+        "ssthresh": 7,
+        "rtt_ms": 30.38,
+        "rttvar_ms": 7.81,
+        "retrans": 2,
+        "bytes_acked": 565603,
+        "bytes_sent": 593884,
+        "throughput_bps": 4524830.88,
+        "throughput_mbps": 4.52,
+        "pacing_rate": 5429797.06,
+        "delivered": 16968115,
+        "lost": 2920
+      },
+      {
+        "timestamp": 31.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 10,
+        "ssthresh": 7,
+        "rtt_ms": 30.82,
+        "rttvar_ms": 6.94,
+        "retrans": 2,
+        "bytes_acked": 556897,
+        "bytes_sent": 584742,
+        "throughput_bps": 4455183.23,
+        "throughput_mbps": 4.46,
+        "pacing_rate": 5346219.87,
+        "delivered": 17263835,
+        "lost": 2920
+      },
+      {
+        "timestamp": 32.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 11,
+        "ssthresh": 7,
+        "rtt_ms": 28.07,
+        "rttvar_ms": 3.06,
+        "retrans": 2,
+        "bytes_acked": 654855,
+        "bytes_sent": 687598,
+        "throughput_bps": 5238842.56,
+        "throughput_mbps": 5.24,
+        "pacing_rate": 6286611.07,
+        "delivered": 20955370,
+        "lost": 2920
+      },
+      {
+        "timestamp": 33.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 11,
+        "ssthresh": 7,
+        "rtt_ms": 31.2,
+        "rttvar_ms": 9.83,
+        "retrans": 2,
+        "bytes_acked": 582440,
+        "bytes_sent": 611562,
+        "throughput_bps": 4659526.36,
+        "throughput_mbps": 4.66,
+        "pacing_rate": 5591431.63,
+        "delivered": 19220546,
+        "lost": 2920
+      },
+      {
+        "timestamp": 34.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 13,
+        "ssthresh": 7,
+        "rtt_ms": 29.13,
+        "rttvar_ms": 4.5,
+        "retrans": 2,
+        "bytes_acked": 577366,
+        "bytes_sent": 606234,
+        "throughput_bps": 4618932.46,
+        "throughput_mbps": 4.62,
+        "pacing_rate": 5542718.95,
+        "delivered": 19630462,
+        "lost": 2920
+      },
+      {
+        "timestamp": 35.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 14,
+        "ssthresh": 7,
+        "rtt_ms": 29.1,
+        "rttvar_ms": 3.28,
+        "retrans": 2,
+        "bytes_acked": 788260,
+        "bytes_sent": 827673,
+        "throughput_bps": 6306083.74,
+        "throughput_mbps": 6.31,
+        "pacing_rate": 7567300.49,
+        "delivered": 27589116,
+        "lost": 2920
+      },
+      {
+        "timestamp": 36.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 16,
+        "ssthresh": 7,
+        "rtt_ms": 30.61,
+        "rttvar_ms": 2.22,
+        "retrans": 2,
+        "bytes_acked": 805916,
+        "bytes_sent": 846212,
+        "throughput_bps": 6447331.92,
+        "throughput_mbps": 6.45,
+        "pacing_rate": 7736798.3,
+        "delivered": 29012993,
+        "lost": 2920
+      },
+      {
+        "timestamp": 37.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 16,
+        "ssthresh": 7,
+        "rtt_ms": 28.17,
+        "rttvar_ms": 8.97,
+        "retrans": 2,
+        "bytes_acked": 791052,
+        "bytes_sent": 830604,
+        "throughput_bps": 6328417.49,
+        "throughput_mbps": 6.33,
+        "pacing_rate": 7594100.98,
+        "delivered": 29268930,
+        "lost": 2920
+      },
+      {
+        "timestamp": 38.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 18,
+        "ssthresh": 7,
+        "rtt_ms": 32.0,
+        "rttvar_ms": 5.69,
+        "retrans": 2,
+        "bytes_acked": 835534,
+        "bytes_sent": 877311,
+        "throughput_bps": 6684278.08,
+        "throughput_mbps": 6.68,
+        "pacing_rate": 8021133.7,
+        "delivered": 31750320,
+        "lost": 2920
+      },
+      {
+        "timestamp": 39.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 18,
+        "ssthresh": 7,
+        "rtt_ms": 29.66,
+        "rttvar_ms": 4.99,
+        "retrans": 2,
+        "bytes_acked": 1026150,
+        "bytes_sent": 1077458,
+        "throughput_bps": 8209205.58,
+        "throughput_mbps": 8.21,
+        "pacing_rate": 9851046.69,
+        "delivered": 40019877,
+        "lost": 2920
+      },
+      {
+        "timestamp": 40.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 21,
+        "ssthresh": 7,
+        "rtt_ms": 31.34,
+        "rttvar_ms": 3.39,
+        "retrans": 2,
+        "bytes_acked": 927253,
+        "bytes_sent": 973616,
+        "throughput_bps": 7418029.09,
+        "throughput_mbps": 7.42,
+        "pacing_rate": 8901634.91,
+        "delivered": 37090145,
+        "lost": 2920
+      },
+      {
+        "timestamp": 41.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 22,
+        "ssthresh": 7,
+        "rtt_ms": 28.11,
+        "rttvar_ms": 9.14,
+        "retrans": 2,
+        "bytes_acked": 1201536,
+        "bytes_sent": 1261613,
+        "throughput_bps": 9612291.87,
+        "throughput_mbps": 9.61,
+        "pacing_rate": 11534750.25,
+        "delivered": 49262995,
+        "lost": 2920
+      },
+      {
+        "timestamp": 42.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 22,
+        "ssthresh": 7,
+        "rtt_ms": 31.43,
+        "rttvar_ms": 5.65,
+        "retrans": 2,
+        "bytes_acked": 943292,
+        "bytes_sent": 990456,
+        "throughput_bps": 7546337.4,
+        "throughput_mbps": 7.55,
+        "pacing_rate": 9055604.88,
+        "delivered": 39618271,
+        "lost": 2920
+      },
+      {
+        "timestamp": 43.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 11,
+        "ssthresh": 11,
+        "rtt_ms": 29.75,
+        "rttvar_ms": 5.62,
+        "retrans": 3,
+        "bytes_acked": 594454,
+        "bytes_sent": 624177,
+        "throughput_bps": 4755637.86,
+        "throughput_mbps": 4.76,
+        "pacing_rate": 5706765.44,
+        "delivered": 25561553,
+        "lost": 4380
+      },
+      {
+        "timestamp": 44.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 10,
+        "ssthresh": 11,
+        "rtt_ms": 31.21,
+        "rttvar_ms": 5.96,
+        "retrans": 3,
+        "bytes_acked": 507622,
+        "bytes_sent": 533003,
+        "throughput_bps": 4060977.36,
+        "throughput_mbps": 4.06,
+        "pacing_rate": 4873172.83,
+        "delivered": 22335375,
+        "lost": 4380
+      },
+      {
+        "timestamp": 45.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 11,
+        "ssthresh": 11,
+        "rtt_ms": 31.15,
+        "rttvar_ms": 4.45,
+        "retrans": 3,
+        "bytes_acked": 506803,
+        "bytes_sent": 532144,
+        "throughput_bps": 4054430.69,
+        "throughput_mbps": 4.05,
+        "pacing_rate": 4865316.83,
+        "delivered": 22806172,
+        "lost": 4380
+      },
+      {
+        "timestamp": 46.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 10,
+        "ssthresh": 11,
+        "rtt_ms": 30.27,
+        "rttvar_ms": 9.63,
+        "retrans": 3,
+        "bytes_acked": 526418,
+        "bytes_sent": 552739,
+        "throughput_bps": 4211351.63,
+        "throughput_mbps": 4.21,
+        "pacing_rate": 5053621.96,
+        "delivered": 24215271,
+        "lost": 4380
+      },
+      {
+        "timestamp": 47.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 10,
+        "ssthresh": 11,
+        "rtt_ms": 30.0,
+        "rttvar_ms": 7.58,
+        "retrans": 3,
+        "bytes_acked": 565354,
+        "bytes_sent": 593622,
+        "throughput_bps": 4522839.2,
+        "throughput_mbps": 4.52,
+        "pacing_rate": 5427407.04,
+        "delivered": 26571680,
+        "lost": 4380
+      },
+      {
+        "timestamp": 48.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 10,
+        "ssthresh": 11,
+        "rtt_ms": 28.88,
+        "rttvar_ms": 7.8,
+        "retrans": 3,
+        "bytes_acked": 603575,
+        "bytes_sent": 633754,
+        "throughput_bps": 4828605.87,
+        "throughput_mbps": 4.83,
+        "pacing_rate": 5794327.04,
+        "delivered": 28971635,
+        "lost": 4380
+      },
+      {
+        "timestamp": 49.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 12,
+        "ssthresh": 11,
+        "rtt_ms": 30.12,
+        "rttvar_ms": 3.28,
+        "retrans": 3,
+        "bytes_acked": 588511,
+        "bytes_sent": 617936,
+        "throughput_bps": 4708091.37,
+        "throughput_mbps": 4.71,
+        "pacing_rate": 5649709.65,
+        "delivered": 28837059,
+        "lost": 4380
+      },
+      {
+        "timestamp": 50.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 13,
+        "ssthresh": 11,
+        "rtt_ms": 30.58,
+        "rttvar_ms": 5.73,
+        "retrans": 3,
+        "bytes_acked": 649105,
+        "bytes_sent": 681561,
+        "throughput_bps": 5192846.68,
+        "throughput_mbps": 5.19,
+        "pacing_rate": 6231416.01,
+        "delivered": 32455291,
+        "lost": 4380
+      },
+      {
+        "timestamp": 51.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 13,
+        "ssthresh": 11,
+        "rtt_ms": 30.23,
+        "rttvar_ms": 3.98,
+        "retrans": 3,
+        "bytes_acked": 638394,
+        "bytes_sent": 670314,
+        "throughput_bps": 5107159.97,
+        "throughput_mbps": 5.11,
+        "pacing_rate": 6128591.96,
+        "delivered": 32558144,
+        "lost": 4380
+      },
+      {
+        "timestamp": 52.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 14,
+        "ssthresh": 11,
+        "rtt_ms": 31.83,
+        "rttvar_ms": 1.54,
+        "retrans": 3,
+        "bytes_acked": 632454,
+        "bytes_sent": 664077,
+        "throughput_bps": 5059638.78,
+        "throughput_mbps": 5.06,
+        "pacing_rate": 6071566.54,
+        "delivered": 32887652,
+        "lost": 4380
+      },
+      {
+        "timestamp": 53.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 16,
+        "ssthresh": 11,
+        "rtt_ms": 28.73,
+        "rttvar_ms": 3.3,
+        "retrans": 3,
+        "bytes_acked": 808466,
+        "bytes_sent": 848890,
+        "throughput_bps": 6467734.33,
+        "throughput_mbps": 6.47,
+        "pacing_rate": 7761281.19,
+        "delivered": 42848739,
+        "lost": 4380
+      },
+      {
+        "timestamp": 54.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 15,
+        "ssthresh": 11,
+        "rtt_ms": 30.76,
+        "rttvar_ms": 5.97,
+        "retrans": 3,
+        "bytes_acked": 717134,
+        "bytes_sent": 752990,
+        "throughput_bps": 5737072.09,
+        "throughput_mbps": 5.74,
+        "pacing_rate": 6884486.5,
+        "delivered": 38725236,
+        "lost": 4380
+      },
+      {
+        "timestamp": 55.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 15,
+        "ssthresh": 11,
+        "rtt_ms": 29.67,
+        "rttvar_ms": 3.67,
+        "retrans": 3,
+        "bytes_acked": 824884,
+        "bytes_sent": 866128,
+        "throughput_bps": 6599076.11,
+        "throughput_mbps": 6.6,
+        "pacing_rate": 7918891.33,
+        "delivered": 45368648,
+        "lost": 4380
+      },
+      {
+        "timestamp": 56.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 16,
+        "ssthresh": 11,
+        "rtt_ms": 28.79,
+        "rttvar_ms": 6.96,
+        "retrans": 3,
+        "bytes_acked": 940178,
+        "bytes_sent": 987187,
+        "throughput_bps": 7521429.45,
+        "throughput_mbps": 7.52,
+        "pacing_rate": 9025715.33,
+        "delivered": 52650006,
+        "lost": 4380
+      },
+      {
+        "timestamp": 57.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 17,
+        "ssthresh": 11,
+        "rtt_ms": 28.89,
+        "rttvar_ms": 9.2,
+        "retrans": 3,
+        "bytes_acked": 936056,
+        "bytes_sent": 982859,
+        "throughput_bps": 7488450.31,
+        "throughput_mbps": 7.49,
+        "pacing_rate": 8986140.37,
+        "delivered": 53355208,
+        "lost": 4380
+      },
+      {
+        "timestamp": 58.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 19,
+        "ssthresh": 11,
+        "rtt_ms": 29.64,
+        "rttvar_ms": 8.46,
+        "retrans": 3,
+        "bytes_acked": 971796,
+        "bytes_sent": 1020386,
+        "throughput_bps": 7774375.8,
+        "throughput_mbps": 7.77,
+        "pacing_rate": 9329250.96,
+        "delivered": 56364224,
+        "lost": 4380
+      },
+      {
+        "timestamp": 59.0,
+        "destination": "bouygues.iperf.fr:5201",
+        "cwnd": 19,
+        "ssthresh": 11,
+        "rtt_ms": 30.48,
+        "rttvar_ms": 8.13,
+        "retrans": 3,
+        "bytes_acked": 909661,
+        "bytes_sent": 955144,
+        "throughput_bps": 7277292.82,
+        "throughput_mbps": 7.28,
+        "pacing_rate": 8732751.38,
+        "delivered": 53670034,
+        "lost": 4380
+      }
+    ],
+    "success": true,
+    "error": null,
+    "error_msg": null
+  },
+  {
+    "server": "ping.online.net:5201",
+    "server_host": "ping.online.net",
+    "server_port": 5201,
+    "host": "ping.online.net",
+    "port": 5201,
+    "duration": 60,
+    "total_bytes": 57755429,
+    "avg_throughput": 7700728.174666667,
+    "avg_throughput_bps": 7700728.174666667,
+    "avg_throughput_mbps": 7.701000000000001,
+    "min_throughput_mbps": 1.83,
+    "max_throughput_mbps": 18.86,
+    "median_throughput_mbps": 6.515,
+    "p95_throughput_mbps": 16.581999999999997,
+    "throughput_samples": [
+      [
+        0.0,
+        4401122.0
+      ],
+      [
+        1.0,
+        5140994.2
+      ],
+      [
+        2.0,
+        5218531.88
+      ],
+      [
+        3.0,
+        5257323.74
+      ],
+      [
+        4.0,
+        5324991.45
+      ],
+      [
+        5.0,
+        5485462.98
+      ],
+      [
+        6.0,
+        5458208.02
+      ],
+      [
+        7.0,
+        6116998.22
+      ],
+      [
+        8.0,
+        5821857.52
+      ],
+      [
+        9.0,
+        5735959.54
+      ],
+      [
+        10.0,
+        7844759.98
+      ],
+      [
+        11.0,
+        7830589.91
+      ],
+      [
+        12.0,
+        9074387.16
+      ],
+      [
+        13.0,
+        9160454.51
+      ],
+      [
+        14.0,
+        8070721.28
+      ],
+      [
+        15.0,
+        9402896.3
+      ],
+      [
+        16.0,
+        8742030.67
+      ],
+      [
+        17.0,
+        10631053.47
+      ],
+      [
+        18.0,
+        10626774.54
+      ],
+      [
+        19.0,
+        12397051.04
+      ],
+      [
+        20.0,
+        13899019.24
+      ],
+      [
+        21.0,
+        12613435.56
+      ],
+      [
+        22.0,
+        14460602.92
+      ],
+      [
+        23.0,
+        15066642.57
+      ],
+      [
+        24.0,
+        16578386.23
+      ],
+      [
+        25.0,
+        17237150.48
+      ],
+      [
+        26.0,
+        16615759.77
+      ],
+      [
+        27.0,
+        15547021.44
+      ],
+      [
+        28.0,
+        18860192.0
+      ],
+      [
+        29.0,
+        9285430.9
+      ],
+      [
+        30.0,
+        11474370.11
+      ],
+      [
+        31.0,
+        4754295.95
+      ],
+      [
+        32.0,
+        6473385.68
+      ],
+      [
+        33.0,
+        5456965.35
+      ],
+      [
+        34.0,
+        5696321.9
+      ],
+      [
+        35.0,
+        6788800.31
+      ],
+      [
+        36.0,
+        6811693.76
+      ],
+      [
+        37.0,
+        3773328.51
+      ],
+      [
+        38.0,
+        3815241.06
+      ],
+      [
+        39.0,
+        5335468.74
+      ],
+      [
+        40.0,
+        5092623.99
+      ],
+      [
+        41.0,
+        2875592.49
+      ],
+      [
+        42.0,
+        2432723.98
+      ],
+      [
+        43.0,
+        3781071.4
+      ],
+      [
+        44.0,
+        4583104.63
+      ],
+      [
+        45.0,
+        1828142.14
+      ],
+      [
+        46.0,
+        2406824.68
+      ],
+      [
+        47.0,
+        2567891.65
+      ],
+      [
+        48.0,
+        3942393.8
+      ],
+      [
+        49.0,
+        3876391.01
+      ],
+      [
+        50.0,
+        5021979.38
+      ],
+      [
+        51.0,
+        6560270.27
+      ],
+      [
+        52.0,
+        6958218.92
+      ],
+      [
+        53.0,
+        5792541.09
+      ],
+      [
+        54.0,
+        5992717.94
+      ],
+      [
+        55.0,
+        7699270.63
+      ],
+      [
+        56.0,
+        7051845.23
+      ],
+      [
+        57.0,
+        7858655.77
+      ],
+      [
+        58.0,
+        8048156.48
+      ],
+      [
+        59.0,
+        9387594.11
+      ]
+    ],
+    "tcp_stats": [
+      {
+        "timestamp": 0.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 10,
+        "ssthresh": 65535,
+        "rtt_ms": 26.27,
+        "rttvar_ms": 8.74,
+        "retrans": 0,
+        "bytes_acked": 550140,
+        "bytes_sent": 577647,
+        "throughput_bps": 4401122.0,
+        "throughput_mbps": 4.4,
+        "pacing_rate": 5281346.39,
+        "delivered": 0,
+        "lost": 0
+      },
+      {
+        "timestamp": 1.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 10,
+        "ssthresh": 65535,
+        "rtt_ms": 24.44,
+        "rttvar_ms": 2.08,
+        "retrans": 0,
+        "bytes_acked": 642624,
+        "bytes_sent": 674755,
+        "throughput_bps": 5140994.2,
+        "throughput_mbps": 5.14,
+        "pacing_rate": 6169193.04,
+        "delivered": 642624,
+        "lost": 0
+      },
+      {
+        "timestamp": 2.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 10,
+        "ssthresh": 65535,
+        "rtt_ms": 24.96,
+        "rttvar_ms": 8.83,
+        "retrans": 0,
+        "bytes_acked": 652316,
+        "bytes_sent": 684932,
+        "throughput_bps": 5218531.88,
+        "throughput_mbps": 5.22,
+        "pacing_rate": 6262238.25,
+        "delivered": 1304632,
+        "lost": 0
+      },
+      {
+        "timestamp": 3.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 10,
+        "ssthresh": 65535,
+        "rtt_ms": 24.58,
+        "rttvar_ms": 6.04,
+        "retrans": 0,
+        "bytes_acked": 657165,
+        "bytes_sent": 690023,
+        "throughput_bps": 5257323.74,
+        "throughput_mbps": 5.26,
+        "pacing_rate": 6308788.49,
+        "delivered": 1971496,
+        "lost": 0
+      },
+      {
+        "timestamp": 4.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 10,
+        "ssthresh": 65535,
+        "rtt_ms": 23.63,
+        "rttvar_ms": 5.2,
+        "retrans": 0,
+        "bytes_acked": 665623,
+        "bytes_sent": 698905,
+        "throughput_bps": 5324991.45,
+        "throughput_mbps": 5.32,
+        "pacing_rate": 6389989.74,
+        "delivered": 2662495,
+        "lost": 0
+      },
+      {
+        "timestamp": 5.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 10,
+        "ssthresh": 65535,
+        "rtt_ms": 23.23,
+        "rttvar_ms": 5.5,
+        "retrans": 0,
+        "bytes_acked": 685682,
+        "bytes_sent": 719967,
+        "throughput_bps": 5485462.98,
+        "throughput_mbps": 5.49,
+        "pacing_rate": 6582555.57,
+        "delivered": 3428414,
+        "lost": 0
+      },
+      {
+        "timestamp": 6.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 12,
+        "ssthresh": 65535,
+        "rtt_ms": 23.13,
+        "rttvar_ms": 3.79,
+        "retrans": 0,
+        "bytes_acked": 682276,
+        "bytes_sent": 716389,
+        "throughput_bps": 5458208.02,
+        "throughput_mbps": 5.46,
+        "pacing_rate": 6549849.62,
+        "delivered": 4093656,
+        "lost": 0
+      },
+      {
+        "timestamp": 7.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 12,
+        "ssthresh": 65535,
+        "rtt_ms": 26.29,
+        "rttvar_ms": 4.99,
+        "retrans": 0,
+        "bytes_acked": 764624,
+        "bytes_sent": 802856,
+        "throughput_bps": 6116998.22,
+        "throughput_mbps": 6.12,
+        "pacing_rate": 7340397.86,
+        "delivered": 5352373,
+        "lost": 0
+      },
+      {
+        "timestamp": 8.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 13,
+        "ssthresh": 65535,
+        "rtt_ms": 26.93,
+        "rttvar_ms": 6.36,
+        "retrans": 0,
+        "bytes_acked": 727732,
+        "bytes_sent": 764118,
+        "throughput_bps": 5821857.52,
+        "throughput_mbps": 5.82,
+        "pacing_rate": 6986229.03,
+        "delivered": 5821857,
+        "lost": 0
+      },
+      {
+        "timestamp": 9.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 14,
+        "ssthresh": 65535,
+        "rtt_ms": 25.74,
+        "rttvar_ms": 2.41,
+        "retrans": 0,
+        "bytes_acked": 716994,
+        "bytes_sent": 752844,
+        "throughput_bps": 5735959.54,
+        "throughput_mbps": 5.74,
+        "pacing_rate": 6883151.45,
+        "delivered": 6452954,
+        "lost": 0
+      },
+      {
+        "timestamp": 10.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 15,
+        "ssthresh": 65535,
+        "rtt_ms": 23.17,
+        "rttvar_ms": 8.66,
+        "retrans": 0,
+        "bytes_acked": 980594,
+        "bytes_sent": 1029624,
+        "throughput_bps": 7844759.98,
+        "throughput_mbps": 7.84,
+        "pacing_rate": 9413711.98,
+        "delivered": 9805949,
+        "lost": 0
+      },
+      {
+        "timestamp": 11.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 17,
+        "ssthresh": 65535,
+        "rtt_ms": 25.81,
+        "rttvar_ms": 2.39,
+        "retrans": 0,
+        "bytes_acked": 978823,
+        "bytes_sent": 1027764,
+        "throughput_bps": 7830589.91,
+        "throughput_mbps": 7.83,
+        "pacing_rate": 9396707.89,
+        "delivered": 10767061,
+        "lost": 0
+      },
+      {
+        "timestamp": 12.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 17,
+        "ssthresh": 65535,
+        "rtt_ms": 24.66,
+        "rttvar_ms": 8.42,
+        "retrans": 0,
+        "bytes_acked": 1134298,
+        "bytes_sent": 1191013,
+        "throughput_bps": 9074387.16,
+        "throughput_mbps": 9.07,
+        "pacing_rate": 10889264.59,
+        "delivered": 13611580,
+        "lost": 0
+      },
+      {
+        "timestamp": 13.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 17,
+        "ssthresh": 65535,
+        "rtt_ms": 23.26,
+        "rttvar_ms": 8.91,
+        "retrans": 0,
+        "bytes_acked": 1145056,
+        "bytes_sent": 1202309,
+        "throughput_bps": 9160454.51,
+        "throughput_mbps": 9.16,
+        "pacing_rate": 10992545.41,
+        "delivered": 14885738,
+        "lost": 0
+      },
+      {
+        "timestamp": 14.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 19,
+        "ssthresh": 65535,
+        "rtt_ms": 25.91,
+        "rttvar_ms": 8.96,
+        "retrans": 0,
+        "bytes_acked": 1008840,
+        "bytes_sent": 1059282,
+        "throughput_bps": 8070721.28,
+        "throughput_mbps": 8.07,
+        "pacing_rate": 9684865.53,
+        "delivered": 14123762,
+        "lost": 0
+      },
+      {
+        "timestamp": 15.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 19,
+        "ssthresh": 65535,
+        "rtt_ms": 26.88,
+        "rttvar_ms": 8.07,
+        "retrans": 0,
+        "bytes_acked": 1175362,
+        "bytes_sent": 1234130,
+        "throughput_bps": 9402896.3,
+        "throughput_mbps": 9.4,
+        "pacing_rate": 11283475.56,
+        "delivered": 17630430,
+        "lost": 0
+      },
+      {
+        "timestamp": 16.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 21,
+        "ssthresh": 65535,
+        "rtt_ms": 26.8,
+        "rttvar_ms": 5.11,
+        "retrans": 0,
+        "bytes_acked": 1092753,
+        "bytes_sent": 1147391,
+        "throughput_bps": 8742030.67,
+        "throughput_mbps": 8.74,
+        "pacing_rate": 10490436.8,
+        "delivered": 17484061,
+        "lost": 0
+      },
+      {
+        "timestamp": 17.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 22,
+        "ssthresh": 65535,
+        "rtt_ms": 25.33,
+        "rttvar_ms": 1.26,
+        "retrans": 0,
+        "bytes_acked": 1328881,
+        "bytes_sent": 1395325,
+        "throughput_bps": 10631053.47,
+        "throughput_mbps": 10.63,
+        "pacing_rate": 12757264.16,
+        "delivered": 22590988,
+        "lost": 0
+      },
+      {
+        "timestamp": 18.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 24,
+        "ssthresh": 65535,
+        "rtt_ms": 23.56,
+        "rttvar_ms": 2.69,
+        "retrans": 0,
+        "bytes_acked": 1328346,
+        "bytes_sent": 1394764,
+        "throughput_bps": 10626774.54,
+        "throughput_mbps": 10.63,
+        "pacing_rate": 12752129.45,
+        "delivered": 23910242,
+        "lost": 0
+      },
+      {
+        "timestamp": 19.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 25,
+        "ssthresh": 65535,
+        "rtt_ms": 26.31,
+        "rttvar_ms": 6.55,
+        "retrans": 0,
+        "bytes_acked": 1549631,
+        "bytes_sent": 1627112,
+        "throughput_bps": 12397051.04,
+        "throughput_mbps": 12.4,
+        "pacing_rate": 14876461.25,
+        "delivered": 29442996,
+        "lost": 0
+      },
+      {
+        "timestamp": 20.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 27,
+        "ssthresh": 65535,
+        "rtt_ms": 23.29,
+        "rttvar_ms": 7.82,
+        "retrans": 0,
+        "bytes_acked": 1737377,
+        "bytes_sent": 1824246,
+        "throughput_bps": 13899019.24,
+        "throughput_mbps": 13.9,
+        "pacing_rate": 16678823.09,
+        "delivered": 34747548,
+        "lost": 0
+      },
+      {
+        "timestamp": 21.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 27,
+        "ssthresh": 65535,
+        "rtt_ms": 25.66,
+        "rttvar_ms": 4.72,
+        "retrans": 0,
+        "bytes_acked": 1576679,
+        "bytes_sent": 1655513,
+        "throughput_bps": 12613435.56,
+        "throughput_mbps": 12.61,
+        "pacing_rate": 15136122.67,
+        "delivered": 33110268,
+        "lost": 0
+      },
+      {
+        "timestamp": 22.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 28,
+        "ssthresh": 65535,
+        "rtt_ms": 24.18,
+        "rttvar_ms": 7.85,
+        "retrans": 0,
+        "bytes_acked": 1807575,
+        "bytes_sent": 1897954,
+        "throughput_bps": 14460602.92,
+        "throughput_mbps": 14.46,
+        "pacing_rate": 17352723.51,
+        "delivered": 39766658,
+        "lost": 0
+      },
+      {
+        "timestamp": 23.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 30,
+        "ssthresh": 65535,
+        "rtt_ms": 25.54,
+        "rttvar_ms": 8.56,
+        "retrans": 0,
+        "bytes_acked": 1883330,
+        "bytes_sent": 1977496,
+        "throughput_bps": 15066642.57,
+        "throughput_mbps": 15.07,
+        "pacing_rate": 18079971.08,
+        "delivered": 43316597,
+        "lost": 0
+      },
+      {
+        "timestamp": 24.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 31,
+        "ssthresh": 65535,
+        "rtt_ms": 23.25,
+        "rttvar_ms": 4.84,
+        "retrans": 0,
+        "bytes_acked": 2072298,
+        "bytes_sent": 2175913,
+        "throughput_bps": 16578386.23,
+        "throughput_mbps": 16.58,
+        "pacing_rate": 19894063.48,
+        "delivered": 49735158,
+        "lost": 0
+      },
+      {
+        "timestamp": 25.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 33,
+        "ssthresh": 65535,
+        "rtt_ms": 23.69,
+        "rttvar_ms": 9.66,
+        "retrans": 0,
+        "bytes_acked": 2154643,
+        "bytes_sent": 2262376,
+        "throughput_bps": 17237150.48,
+        "throughput_mbps": 17.24,
+        "pacing_rate": 20684580.58,
+        "delivered": 53866095,
+        "lost": 0
+      },
+      {
+        "timestamp": 26.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 35,
+        "ssthresh": 65535,
+        "rtt_ms": 25.97,
+        "rttvar_ms": 5.48,
+        "retrans": 0,
+        "bytes_acked": 2076969,
+        "bytes_sent": 2180818,
+        "throughput_bps": 16615759.77,
+        "throughput_mbps": 16.62,
+        "pacing_rate": 19938911.72,
+        "delivered": 54001219,
+        "lost": 0
+      },
+      {
+        "timestamp": 27.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 37,
+        "ssthresh": 65535,
+        "rtt_ms": 26.54,
+        "rttvar_ms": 3.46,
+        "retrans": 0,
+        "bytes_acked": 1943377,
+        "bytes_sent": 2040546,
+        "throughput_bps": 15547021.44,
+        "throughput_mbps": 15.55,
+        "pacing_rate": 18656425.73,
+        "delivered": 52471197,
+        "lost": 0
+      },
+      {
+        "timestamp": 28.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 39,
+        "ssthresh": 65535,
+        "rtt_ms": 25.8,
+        "rttvar_ms": 8.11,
+        "retrans": 0,
+        "bytes_acked": 2357523,
+        "bytes_sent": 2475400,
+        "throughput_bps": 18860192.0,
+        "throughput_mbps": 18.86,
+        "pacing_rate": 22632230.4,
+        "delivered": 66010671,
+        "lost": 0
+      },
+      {
+        "timestamp": 29.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 21,
+        "ssthresh": 20,
+        "rtt_ms": 24.39,
+        "rttvar_ms": 5.5,
+        "retrans": 1,
+        "bytes_acked": 1160678,
+        "bytes_sent": 1218712,
+        "throughput_bps": 9285430.9,
+        "throughput_mbps": 9.29,
+        "pacing_rate": 11142517.08,
+        "delivered": 33659687,
+        "lost": 1460
+      },
+      {
+        "timestamp": 30.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 22,
+        "ssthresh": 20,
+        "rtt_ms": 23.77,
+        "rttvar_ms": 2.89,
+        "retrans": 1,
+        "bytes_acked": 1434296,
+        "bytes_sent": 1506011,
+        "throughput_bps": 11474370.11,
+        "throughput_mbps": 11.47,
+        "pacing_rate": 13769244.13,
+        "delivered": 43028887,
+        "lost": 1460
+      },
+      {
+        "timestamp": 31.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 12,
+        "ssthresh": 11,
+        "rtt_ms": 26.31,
+        "rttvar_ms": 9.28,
+        "retrans": 2,
+        "bytes_acked": 594286,
+        "bytes_sent": 624001,
+        "throughput_bps": 4754295.95,
+        "throughput_mbps": 4.75,
+        "pacing_rate": 5705155.14,
+        "delivered": 18422896,
+        "lost": 2920
+      },
+      {
+        "timestamp": 32.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 12,
+        "ssthresh": 11,
+        "rtt_ms": 23.67,
+        "rttvar_ms": 9.16,
+        "retrans": 2,
+        "bytes_acked": 809173,
+        "bytes_sent": 849631,
+        "throughput_bps": 6473385.68,
+        "throughput_mbps": 6.47,
+        "pacing_rate": 7768062.81,
+        "delivered": 25893542,
+        "lost": 2920
+      },
+      {
+        "timestamp": 33.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 13,
+        "ssthresh": 11,
+        "rtt_ms": 25.07,
+        "rttvar_ms": 1.74,
+        "retrans": 2,
+        "bytes_acked": 682120,
+        "bytes_sent": 716226,
+        "throughput_bps": 5456965.35,
+        "throughput_mbps": 5.46,
+        "pacing_rate": 6548358.42,
+        "delivered": 22509982,
+        "lost": 2920
+      },
+      {
+        "timestamp": 34.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 13,
+        "ssthresh": 11,
+        "rtt_ms": 26.05,
+        "rttvar_ms": 1.12,
+        "retrans": 2,
+        "bytes_acked": 712040,
+        "bytes_sent": 747642,
+        "throughput_bps": 5696321.9,
+        "throughput_mbps": 5.7,
+        "pacing_rate": 6835586.29,
+        "delivered": 24209368,
+        "lost": 2920
+      },
+      {
+        "timestamp": 35.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 14,
+        "ssthresh": 11,
+        "rtt_ms": 25.36,
+        "rttvar_ms": 9.85,
+        "retrans": 2,
+        "bytes_acked": 848600,
+        "bytes_sent": 891030,
+        "throughput_bps": 6788800.31,
+        "throughput_mbps": 6.79,
+        "pacing_rate": 8146560.37,
+        "delivered": 29701001,
+        "lost": 2920
+      },
+      {
+        "timestamp": 36.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 15,
+        "ssthresh": 11,
+        "rtt_ms": 26.48,
+        "rttvar_ms": 3.57,
+        "retrans": 2,
+        "bytes_acked": 851461,
+        "bytes_sent": 894034,
+        "throughput_bps": 6811693.76,
+        "throughput_mbps": 6.81,
+        "pacing_rate": 8174032.51,
+        "delivered": 30652621,
+        "lost": 2920
+      },
+      {
+        "timestamp": 37.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 8,
+        "ssthresh": 8,
+        "rtt_ms": 25.76,
+        "rttvar_ms": 3.08,
+        "retrans": 3,
+        "bytes_acked": 471666,
+        "bytes_sent": 495249,
+        "throughput_bps": 3773328.51,
+        "throughput_mbps": 3.77,
+        "pacing_rate": 4527994.21,
+        "delivered": 17451644,
+        "lost": 4380
+      },
+      {
+        "timestamp": 38.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 9,
+        "ssthresh": 8,
+        "rtt_ms": 23.89,
+        "rttvar_ms": 9.39,
+        "retrans": 3,
+        "bytes_acked": 476905,
+        "bytes_sent": 500750,
+        "throughput_bps": 3815241.06,
+        "throughput_mbps": 3.82,
+        "pacing_rate": 4578289.28,
+        "delivered": 18122395,
+        "lost": 4380
+      },
+      {
+        "timestamp": 39.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 10,
+        "ssthresh": 8,
+        "rtt_ms": 23.87,
+        "rttvar_ms": 8.41,
+        "retrans": 3,
+        "bytes_acked": 666933,
+        "bytes_sent": 700280,
+        "throughput_bps": 5335468.74,
+        "throughput_mbps": 5.34,
+        "pacing_rate": 6402562.49,
+        "delivered": 26010410,
+        "lost": 4380
+      },
+      {
+        "timestamp": 40.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 10,
+        "ssthresh": 8,
+        "rtt_ms": 26.64,
+        "rttvar_ms": 7.76,
+        "retrans": 3,
+        "bytes_acked": 636577,
+        "bytes_sent": 668406,
+        "throughput_bps": 5092623.99,
+        "throughput_mbps": 5.09,
+        "pacing_rate": 6111148.78,
+        "delivered": 25463119,
+        "lost": 4380
+      },
+      {
+        "timestamp": 41.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 5,
+        "ssthresh": 5,
+        "rtt_ms": 25.87,
+        "rttvar_ms": 7.49,
+        "retrans": 4,
+        "bytes_acked": 359449,
+        "bytes_sent": 377421,
+        "throughput_bps": 2875592.49,
+        "throughput_mbps": 2.88,
+        "pacing_rate": 3450710.98,
+        "delivered": 14737411,
+        "lost": 5840
+      },
+      {
+        "timestamp": 42.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 6,
+        "ssthresh": 5,
+        "rtt_ms": 25.12,
+        "rttvar_ms": 4.4,
+        "retrans": 4,
+        "bytes_acked": 304090,
+        "bytes_sent": 319295,
+        "throughput_bps": 2432723.98,
+        "throughput_mbps": 2.43,
+        "pacing_rate": 2919268.77,
+        "delivered": 12771800,
+        "lost": 5840
+      },
+      {
+        "timestamp": 43.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 6,
+        "ssthresh": 5,
+        "rtt_ms": 23.5,
+        "rttvar_ms": 6.54,
+        "retrans": 4,
+        "bytes_acked": 472633,
+        "bytes_sent": 496265,
+        "throughput_bps": 3781071.4,
+        "throughput_mbps": 3.78,
+        "pacing_rate": 4537285.68,
+        "delivered": 20323258,
+        "lost": 5840
+      },
+      {
+        "timestamp": 44.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 7,
+        "ssthresh": 5,
+        "rtt_ms": 23.64,
+        "rttvar_ms": 4.38,
+        "retrans": 4,
+        "bytes_acked": 572888,
+        "bytes_sent": 601532,
+        "throughput_bps": 4583104.63,
+        "throughput_mbps": 4.58,
+        "pacing_rate": 5499725.55,
+        "delivered": 25207075,
+        "lost": 5840
+      },
+      {
+        "timestamp": 45.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 4,
+        "ssthresh": 4,
+        "rtt_ms": 26.79,
+        "rttvar_ms": 1.89,
+        "retrans": 5,
+        "bytes_acked": 228517,
+        "bytes_sent": 239943,
+        "throughput_bps": 1828142.14,
+        "throughput_mbps": 1.83,
+        "pacing_rate": 2193770.57,
+        "delivered": 10283299,
+        "lost": 7300
+      },
+      {
+        "timestamp": 46.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 5,
+        "ssthresh": 4,
+        "rtt_ms": 23.38,
+        "rttvar_ms": 9.39,
+        "retrans": 5,
+        "bytes_acked": 300853,
+        "bytes_sent": 315895,
+        "throughput_bps": 2406824.68,
+        "throughput_mbps": 2.41,
+        "pacing_rate": 2888189.62,
+        "delivered": 13839241,
+        "lost": 7300
+      },
+      {
+        "timestamp": 47.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 5,
+        "ssthresh": 4,
+        "rtt_ms": 23.9,
+        "rttvar_ms": 1.39,
+        "retrans": 5,
+        "bytes_acked": 320986,
+        "bytes_sent": 337035,
+        "throughput_bps": 2567891.65,
+        "throughput_mbps": 2.57,
+        "pacing_rate": 3081469.98,
+        "delivered": 15086363,
+        "lost": 7300
+      },
+      {
+        "timestamp": 48.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 7,
+        "ssthresh": 4,
+        "rtt_ms": 23.53,
+        "rttvar_ms": 1.02,
+        "retrans": 5,
+        "bytes_acked": 492799,
+        "bytes_sent": 517439,
+        "throughput_bps": 3942393.8,
+        "throughput_mbps": 3.94,
+        "pacing_rate": 4730872.55,
+        "delivered": 23654362,
+        "lost": 7300
+      },
+      {
+        "timestamp": 49.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 8,
+        "ssthresh": 4,
+        "rtt_ms": 26.14,
+        "rttvar_ms": 9.5,
+        "retrans": 5,
+        "bytes_acked": 484548,
+        "bytes_sent": 508776,
+        "throughput_bps": 3876391.01,
+        "throughput_mbps": 3.88,
+        "pacing_rate": 4651669.21,
+        "delivered": 23742894,
+        "lost": 7300
+      },
+      {
+        "timestamp": 50.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 11,
+        "ssthresh": 4,
+        "rtt_ms": 25.91,
+        "rttvar_ms": 2.36,
+        "retrans": 5,
+        "bytes_acked": 627747,
+        "bytes_sent": 659134,
+        "throughput_bps": 5021979.38,
+        "throughput_mbps": 5.02,
+        "pacing_rate": 6026375.25,
+        "delivered": 31387371,
+        "lost": 7300
+      },
+      {
+        "timestamp": 51.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 12,
+        "ssthresh": 4,
+        "rtt_ms": 23.18,
+        "rttvar_ms": 8.3,
+        "retrans": 5,
+        "bytes_acked": 820033,
+        "bytes_sent": 861035,
+        "throughput_bps": 6560270.27,
+        "throughput_mbps": 6.56,
+        "pacing_rate": 7872324.32,
+        "delivered": 41821722,
+        "lost": 7300
+      },
+      {
+        "timestamp": 52.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 12,
+        "ssthresh": 4,
+        "rtt_ms": 24.9,
+        "rttvar_ms": 6.1,
+        "retrans": 5,
+        "bytes_acked": 869777,
+        "bytes_sent": 913266,
+        "throughput_bps": 6958218.92,
+        "throughput_mbps": 6.96,
+        "pacing_rate": 8349862.7,
+        "delivered": 45228422,
+        "lost": 7300
+      },
+      {
+        "timestamp": 53.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 12,
+        "ssthresh": 4,
+        "rtt_ms": 24.58,
+        "rttvar_ms": 3.82,
+        "retrans": 5,
+        "bytes_acked": 724067,
+        "bytes_sent": 760271,
+        "throughput_bps": 5792541.09,
+        "throughput_mbps": 5.79,
+        "pacing_rate": 6951049.31,
+        "delivered": 38375584,
+        "lost": 7300
+      },
+      {
+        "timestamp": 54.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 13,
+        "ssthresh": 4,
+        "rtt_ms": 26.4,
+        "rttvar_ms": 9.84,
+        "retrans": 5,
+        "bytes_acked": 749089,
+        "bytes_sent": 786544,
+        "throughput_bps": 5992717.94,
+        "throughput_mbps": 5.99,
+        "pacing_rate": 7191261.53,
+        "delivered": 40450846,
+        "lost": 7300
+      },
+      {
+        "timestamp": 55.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 15,
+        "ssthresh": 4,
+        "rtt_ms": 23.43,
+        "rttvar_ms": 8.62,
+        "retrans": 5,
+        "bytes_acked": 962408,
+        "bytes_sent": 1010529,
+        "throughput_bps": 7699270.63,
+        "throughput_mbps": 7.7,
+        "pacing_rate": 9239124.76,
+        "delivered": 52932485,
+        "lost": 7300
+      },
+      {
+        "timestamp": 56.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 16,
+        "ssthresh": 4,
+        "rtt_ms": 25.14,
+        "rttvar_ms": 7.89,
+        "retrans": 5,
+        "bytes_acked": 881480,
+        "bytes_sent": 925554,
+        "throughput_bps": 7051845.23,
+        "throughput_mbps": 7.05,
+        "pacing_rate": 8462214.27,
+        "delivered": 49362916,
+        "lost": 7300
+      },
+      {
+        "timestamp": 57.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 16,
+        "ssthresh": 4,
+        "rtt_ms": 23.43,
+        "rttvar_ms": 2.07,
+        "retrans": 5,
+        "bytes_acked": 982331,
+        "bytes_sent": 1031448,
+        "throughput_bps": 7858655.77,
+        "throughput_mbps": 7.86,
+        "pacing_rate": 9430386.93,
+        "delivered": 55992922,
+        "lost": 7300
+      },
+      {
+        "timestamp": 58.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 18,
+        "ssthresh": 4,
+        "rtt_ms": 24.87,
+        "rttvar_ms": 3.05,
+        "retrans": 5,
+        "bytes_acked": 1006019,
+        "bytes_sent": 1056320,
+        "throughput_bps": 8048156.48,
+        "throughput_mbps": 8.05,
+        "pacing_rate": 9657787.77,
+        "delivered": 58349134,
+        "lost": 7300
+      },
+      {
+        "timestamp": 59.0,
+        "destination": "ping.online.net:5201",
+        "cwnd": 19,
+        "ssthresh": 4,
+        "rtt_ms": 26.58,
+        "rttvar_ms": 8.48,
+        "retrans": 5,
+        "bytes_acked": 1173449,
+        "bytes_sent": 1232121,
+        "throughput_bps": 9387594.11,
+        "throughput_mbps": 9.39,
+        "pacing_rate": 11265112.93,
+        "delivered": 69233506,
+        "lost": 7300
+      }
+    ],
+    "success": true,
+    "error": null,
+    "error_msg": null
+  },
+  {
+    "server": "iperf.he.net:5201",
+    "server_host": "iperf.he.net",
+    "server_port": 5201,
+    "host": "iperf.he.net",
+    "port": 5201,
+    "duration": 60,
+    "total_bytes": 23190606,
+    "avg_throughput": 3092084.5205,
+    "avg_throughput_bps": 3092084.5205,
+    "avg_throughput_mbps": 3.092666666666667,
+    "min_throughput_mbps": 0.34,
+    "max_throughput_mbps": 7.16,
+    "median_throughput_mbps": 2.8200000000000003,
+    "p95_throughput_mbps": 6.4719999999999995,
+    "throughput_samples": [
+      [
+        0.0,
+        1117576.0
+      ],
+      [
+        1.0,
+        1251673.32
+      ],
+      [
+        2.0,
+        675307.52
+      ],
+      [
+        3.0,
+        628192.6
+      ],
+      [
+        4.0,
+        338444.21
+      ],
+      [
+        5.0,
+        449029.7
+      ],
+      [
+        6.0,
+        639677.51
+      ],
+      [
+        7.0,
+        815171.08
+      ],
+      [
+        8.0,
+        894286.3
+      ],
+      [
+        9.0,
+        1045106.39
+      ],
+      [
+        10.0,
+        1230844.98
+      ],
+      [
+        11.0,
+        1423003.99
+      ],
+      [
+        12.0,
+        1524027.7
+      ],
+      [
+        13.0,
+        806986.75
+      ],
+      [
+        14.0,
+        1050283.29
+      ],
+      [
+        15.0,
+        1063624.67
+      ],
+      [
+        16.0,
+        643447.86
+      ],
+      [
+        17.0,
+        819078.69
+      ],
+      [
+        18.0,
+        912232.29
+      ],
+      [
+        19.0,
+        1295344.1
+      ],
+      [
+        20.0,
+        1288840.96
+      ],
+      [
+        21.0,
+        1353783.03
+      ],
+      [
+        22.0,
+        1569585.09
+      ],
+      [
+        23.0,
+        1866195.52
+      ],
+      [
+        24.0,
+        2013974.16
+      ],
+      [
+        25.0,
+        2135424.76
+      ],
+      [
+        26.0,
+        2036865.92
+      ],
+      [
+        27.0,
+        2318382.54
+      ],
+      [
+        28.0,
+        2705655.36
+      ],
+      [
+        29.0,
+        2932648.86
+      ],
+      [
+        30.0,
+        2651651.29
+      ],
+      [
+        31.0,
+        3205093.0
+      ],
+      [
+        32.0,
+        3566435.4
+      ],
+      [
+        33.0,
+        3787263.1
+      ],
+      [
+        34.0,
+        3284550.99
+      ],
+      [
+        35.0,
+        3420151.89
+      ],
+      [
+        36.0,
+        3777791.09
+      ],
+      [
+        37.0,
+        3878499.22
+      ],
+      [
+        38.0,
+        4151040.52
+      ],
+      [
+        39.0,
+        4257838.57
+      ],
+      [
+        40.0,
+        3987580.78
+      ],
+      [
+        41.0,
+        3925300.01
+      ],
+      [
+        42.0,
+        4219234.41
+      ],
+      [
+        43.0,
+        5052931.1
+      ],
+      [
+        44.0,
+        5253880.05
+      ],
+      [
+        45.0,
+        5404022.07
+      ],
+      [
+        46.0,
+        5036315.49
+      ],
+      [
+        47.0,
+        5200712.24
+      ],
+      [
+        48.0,
+        5671189.65
+      ],
+      [
+        49.0,
+        6001868.21
+      ],
+      [
+        50.0,
+        6038868.26
+      ],
+      [
+        51.0,
+        6257714.03
+      ],
+      [
+        52.0,
+        5465161.26
+      ],
+      [
+        53.0,
+        6695876.08
+      ],
+      [
+        54.0,
+        6880757.78
+      ],
+      [
+        55.0,
+        6337457.57
+      ],
+      [
+        56.0,
+        6331625.46
+      ],
+      [
+        57.0,
+        6457649.05
+      ],
+      [
+        58.0,
+        7158304.59
+      ],
+      [
+        59.0,
+        3323612.92
+      ]
+    ],
+    "tcp_stats": [
+      {
+        "timestamp": 0.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 10,
+        "ssthresh": 65535,
+        "rtt_ms": 100.33,
+        "rttvar_ms": 6.15,
+        "retrans": 0,
+        "bytes_acked": 139696,
+        "bytes_sent": 146681,
+        "throughput_bps": 1117576.0,
+        "throughput_mbps": 1.12,
+        "pacing_rate": 1341091.2,
+        "delivered": 0,
+        "lost": 0
+      },
+      {
+        "timestamp": 1.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 10,
+        "ssthresh": 65535,
+        "rtt_ms": 101.59,
+        "rttvar_ms": 1.08,
+        "retrans": 0,
+        "bytes_acked": 156459,
+        "bytes_sent": 164282,
+        "throughput_bps": 1251673.32,
+        "throughput_mbps": 1.25,
+        "pacing_rate": 1502007.99,
+        "delivered": 156459,
+        "lost": 0
+      },
+      {
+        "timestamp": 2.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 4,
+        "ssthresh": 5,
+        "rtt_ms": 101.78,
+        "rttvar_ms": 6.17,
+        "retrans": 1,
+        "bytes_acked": 84413,
+        "bytes_sent": 88634,
+        "throughput_bps": 675307.52,
+        "throughput_mbps": 0.68,
+        "pacing_rate": 810369.02,
+        "delivered": 168826,
+        "lost": 1460
+      },
+      {
+        "timestamp": 3.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 5,
+        "ssthresh": 5,
+        "rtt_ms": 99.76,
+        "rttvar_ms": 7.1,
+        "retrans": 1,
+        "bytes_acked": 78524,
+        "bytes_sent": 82450,
+        "throughput_bps": 628192.6,
+        "throughput_mbps": 0.63,
+        "pacing_rate": 753831.12,
+        "delivered": 235572,
+        "lost": 1460
+      },
+      {
+        "timestamp": 4.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 3,
+        "ssthresh": 2,
+        "rtt_ms": 98.69,
+        "rttvar_ms": 2.29,
+        "retrans": 2,
+        "bytes_acked": 42305,
+        "bytes_sent": 44420,
+        "throughput_bps": 338444.21,
+        "throughput_mbps": 0.34,
+        "pacing_rate": 406133.05,
+        "delivered": 169222,
+        "lost": 2920
+      },
+      {
+        "timestamp": 5.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 4,
+        "ssthresh": 2,
+        "rtt_ms": 99.74,
+        "rttvar_ms": 8.25,
+        "retrans": 2,
+        "bytes_acked": 56128,
+        "bytes_sent": 58935,
+        "throughput_bps": 449029.7,
+        "throughput_mbps": 0.45,
+        "pacing_rate": 538835.65,
+        "delivered": 280643,
+        "lost": 2920
+      },
+      {
+        "timestamp": 6.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 6,
+        "ssthresh": 2,
+        "rtt_ms": 100.2,
+        "rttvar_ms": 7.15,
+        "retrans": 2,
+        "bytes_acked": 79959,
+        "bytes_sent": 83957,
+        "throughput_bps": 639677.51,
+        "throughput_mbps": 0.64,
+        "pacing_rate": 767613.02,
+        "delivered": 479758,
+        "lost": 2920
+      },
+      {
+        "timestamp": 7.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 6,
+        "ssthresh": 2,
+        "rtt_ms": 99.32,
+        "rttvar_ms": 1.79,
+        "retrans": 2,
+        "bytes_acked": 101896,
+        "bytes_sent": 106991,
+        "throughput_bps": 815171.08,
+        "throughput_mbps": 0.82,
+        "pacing_rate": 978205.3,
+        "delivered": 713274,
+        "lost": 2920
+      },
+      {
+        "timestamp": 8.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 8,
+        "ssthresh": 2,
+        "rtt_ms": 99.7,
+        "rttvar_ms": 3.7,
+        "retrans": 2,
+        "bytes_acked": 111785,
+        "bytes_sent": 117375,
+        "throughput_bps": 894286.3,
+        "throughput_mbps": 0.89,
+        "pacing_rate": 1073143.56,
+        "delivered": 894286,
+        "lost": 2920
+      },
+      {
+        "timestamp": 9.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 9,
+        "ssthresh": 2,
+        "rtt_ms": 98.34,
+        "rttvar_ms": 5.21,
+        "retrans": 2,
+        "bytes_acked": 130638,
+        "bytes_sent": 137170,
+        "throughput_bps": 1045106.39,
+        "throughput_mbps": 1.05,
+        "pacing_rate": 1254127.67,
+        "delivered": 1175744,
+        "lost": 2920
+      },
+      {
+        "timestamp": 10.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 10,
+        "ssthresh": 2,
+        "rtt_ms": 98.44,
+        "rttvar_ms": 9.78,
+        "retrans": 2,
+        "bytes_acked": 153855,
+        "bytes_sent": 161548,
+        "throughput_bps": 1230844.98,
+        "throughput_mbps": 1.23,
+        "pacing_rate": 1477013.98,
+        "delivered": 1538556,
+        "lost": 2920
+      },
+      {
+        "timestamp": 11.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 12,
+        "ssthresh": 2,
+        "rtt_ms": 100.77,
+        "rttvar_ms": 5.6,
+        "retrans": 2,
+        "bytes_acked": 177875,
+        "bytes_sent": 186769,
+        "throughput_bps": 1423003.99,
+        "throughput_mbps": 1.42,
+        "pacing_rate": 1707604.78,
+        "delivered": 1956630,
+        "lost": 2920
+      },
+      {
+        "timestamp": 12.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 13,
+        "ssthresh": 2,
+        "rtt_ms": 100.81,
+        "rttvar_ms": 3.2,
+        "retrans": 2,
+        "bytes_acked": 190503,
+        "bytes_sent": 200028,
+        "throughput_bps": 1524027.7,
+        "throughput_mbps": 1.52,
+        "pacing_rate": 1828833.24,
+        "delivered": 2286041,
+        "lost": 2920
+      },
+      {
+        "timestamp": 13.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 8,
+        "ssthresh": 7,
+        "rtt_ms": 99.97,
+        "rttvar_ms": 8.57,
+        "retrans": 3,
+        "bytes_acked": 100873,
+        "bytes_sent": 105917,
+        "throughput_bps": 806986.75,
+        "throughput_mbps": 0.81,
+        "pacing_rate": 968384.1,
+        "delivered": 1311353,
+        "lost": 4380
+      },
+      {
+        "timestamp": 14.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 7,
+        "ssthresh": 7,
+        "rtt_ms": 100.54,
+        "rttvar_ms": 3.93,
+        "retrans": 3,
+        "bytes_acked": 131285,
+        "bytes_sent": 137849,
+        "throughput_bps": 1050283.29,
+        "throughput_mbps": 1.05,
+        "pacing_rate": 1260339.95,
+        "delivered": 1837995,
+        "lost": 4380
+      },
+      {
+        "timestamp": 15.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 9,
+        "ssthresh": 7,
+        "rtt_ms": 101.2,
+        "rttvar_ms": 6.24,
+        "retrans": 3,
+        "bytes_acked": 132953,
+        "bytes_sent": 139600,
+        "throughput_bps": 1063624.67,
+        "throughput_mbps": 1.06,
+        "pacing_rate": 1276349.6,
+        "delivered": 1994296,
+        "lost": 4380
+      },
+      {
+        "timestamp": 16.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 6,
+        "ssthresh": 5,
+        "rtt_ms": 98.61,
+        "rttvar_ms": 4.9,
+        "retrans": 4,
+        "bytes_acked": 80430,
+        "bytes_sent": 84452,
+        "throughput_bps": 643447.86,
+        "throughput_mbps": 0.64,
+        "pacing_rate": 772137.44,
+        "delivered": 1286895,
+        "lost": 5840
+      },
+      {
+        "timestamp": 17.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 6,
+        "ssthresh": 5,
+        "rtt_ms": 98.85,
+        "rttvar_ms": 3.55,
+        "retrans": 4,
+        "bytes_acked": 102384,
+        "bytes_sent": 107504,
+        "throughput_bps": 819078.69,
+        "throughput_mbps": 0.82,
+        "pacing_rate": 982894.43,
+        "delivered": 1740542,
+        "lost": 5840
+      },
+      {
+        "timestamp": 18.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 9,
+        "ssthresh": 5,
+        "rtt_ms": 101.04,
+        "rttvar_ms": 8.61,
+        "retrans": 4,
+        "bytes_acked": 114029,
+        "bytes_sent": 119730,
+        "throughput_bps": 912232.29,
+        "throughput_mbps": 0.91,
+        "pacing_rate": 1094678.75,
+        "delivered": 2052522,
+        "lost": 5840
+      },
+      {
+        "timestamp": 19.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 10,
+        "ssthresh": 5,
+        "rtt_ms": 100.91,
+        "rttvar_ms": 4.81,
+        "retrans": 4,
+        "bytes_acked": 161918,
+        "bytes_sent": 170013,
+        "throughput_bps": 1295344.1,
+        "throughput_mbps": 1.3,
+        "pacing_rate": 1554412.92,
+        "delivered": 3076442,
+        "lost": 5840
+      },
+      {
+        "timestamp": 20.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 10,
+        "ssthresh": 5,
+        "rtt_ms": 100.88,
+        "rttvar_ms": 4.37,
+        "retrans": 4,
+        "bytes_acked": 161105,
+        "bytes_sent": 169160,
+        "throughput_bps": 1288840.96,
+        "throughput_mbps": 1.29,
+        "pacing_rate": 1546609.16,
+        "delivered": 3222102,
+        "lost": 5840
+      },
+      {
+        "timestamp": 21.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 12,
+        "ssthresh": 5,
+        "rtt_ms": 100.33,
+        "rttvar_ms": 6.14,
+        "retrans": 4,
+        "bytes_acked": 169222,
+        "bytes_sent": 177684,
+        "throughput_bps": 1353783.03,
+        "throughput_mbps": 1.35,
+        "pacing_rate": 1624539.64,
+        "delivered": 3553680,
+        "lost": 5840
+      },
+      {
+        "timestamp": 22.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 13,
+        "ssthresh": 5,
+        "rtt_ms": 99.11,
+        "rttvar_ms": 2.17,
+        "retrans": 4,
+        "bytes_acked": 196198,
+        "bytes_sent": 206008,
+        "throughput_bps": 1569585.09,
+        "throughput_mbps": 1.57,
+        "pacing_rate": 1883502.11,
+        "delivered": 4316358,
+        "lost": 5840
+      },
+      {
+        "timestamp": 23.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 15,
+        "ssthresh": 5,
+        "rtt_ms": 101.61,
+        "rttvar_ms": 9.84,
+        "retrans": 4,
+        "bytes_acked": 233274,
+        "bytes_sent": 244938,
+        "throughput_bps": 1866195.52,
+        "throughput_mbps": 1.87,
+        "pacing_rate": 2239434.63,
+        "delivered": 5365312,
+        "lost": 5840
+      },
+      {
+        "timestamp": 24.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 15,
+        "ssthresh": 5,
+        "rtt_ms": 101.71,
+        "rttvar_ms": 1.59,
+        "retrans": 4,
+        "bytes_acked": 251746,
+        "bytes_sent": 264334,
+        "throughput_bps": 2013974.16,
+        "throughput_mbps": 2.01,
+        "pacing_rate": 2416768.99,
+        "delivered": 6041922,
+        "lost": 5840
+      },
+      {
+        "timestamp": 25.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 18,
+        "ssthresh": 5,
+        "rtt_ms": 98.1,
+        "rttvar_ms": 5.88,
+        "retrans": 4,
+        "bytes_acked": 266928,
+        "bytes_sent": 280274,
+        "throughput_bps": 2135424.76,
+        "throughput_mbps": 2.14,
+        "pacing_rate": 2562509.71,
+        "delivered": 6673202,
+        "lost": 5840
+      },
+      {
+        "timestamp": 26.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 19,
+        "ssthresh": 5,
+        "rtt_ms": 100.03,
+        "rttvar_ms": 7.29,
+        "retrans": 4,
+        "bytes_acked": 254608,
+        "bytes_sent": 267338,
+        "throughput_bps": 2036865.92,
+        "throughput_mbps": 2.04,
+        "pacing_rate": 2444239.1,
+        "delivered": 6619814,
+        "lost": 5840
+      },
+      {
+        "timestamp": 27.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 20,
+        "ssthresh": 5,
+        "rtt_ms": 101.56,
+        "rttvar_ms": 7.45,
+        "retrans": 4,
+        "bytes_acked": 289797,
+        "bytes_sent": 304287,
+        "throughput_bps": 2318382.54,
+        "throughput_mbps": 2.32,
+        "pacing_rate": 2782059.05,
+        "delivered": 7824541,
+        "lost": 5840
+      },
+      {
+        "timestamp": 28.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 23,
+        "ssthresh": 5,
+        "rtt_ms": 99.47,
+        "rttvar_ms": 2.06,
+        "retrans": 4,
+        "bytes_acked": 338206,
+        "bytes_sent": 355117,
+        "throughput_bps": 2705655.36,
+        "throughput_mbps": 2.71,
+        "pacing_rate": 3246786.43,
+        "delivered": 9469793,
+        "lost": 5840
+      },
+      {
+        "timestamp": 29.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 24,
+        "ssthresh": 5,
+        "rtt_ms": 101.25,
+        "rttvar_ms": 9.07,
+        "retrans": 4,
+        "bytes_acked": 366581,
+        "bytes_sent": 384910,
+        "throughput_bps": 2932648.86,
+        "throughput_mbps": 2.93,
+        "pacing_rate": 3519178.63,
+        "delivered": 10630852,
+        "lost": 5840
+      },
+      {
+        "timestamp": 30.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 24,
+        "ssthresh": 5,
+        "rtt_ms": 101.89,
+        "rttvar_ms": 6.99,
+        "retrans": 4,
+        "bytes_acked": 331456,
+        "bytes_sent": 348029,
+        "throughput_bps": 2651651.29,
+        "throughput_mbps": 2.65,
+        "pacing_rate": 3181981.55,
+        "delivered": 9943692,
+        "lost": 5840
+      },
+      {
+        "timestamp": 31.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 26,
+        "ssthresh": 5,
+        "rtt_ms": 98.52,
+        "rttvar_ms": 8.2,
+        "retrans": 4,
+        "bytes_acked": 400636,
+        "bytes_sent": 420668,
+        "throughput_bps": 3205093.0,
+        "throughput_mbps": 3.21,
+        "pacing_rate": 3846111.6,
+        "delivered": 12419735,
+        "lost": 5840
+      },
+      {
+        "timestamp": 32.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 28,
+        "ssthresh": 5,
+        "rtt_ms": 100.3,
+        "rttvar_ms": 1.37,
+        "retrans": 4,
+        "bytes_acked": 445804,
+        "bytes_sent": 468094,
+        "throughput_bps": 3566435.4,
+        "throughput_mbps": 3.57,
+        "pacing_rate": 4279722.48,
+        "delivered": 14265741,
+        "lost": 5840
+      },
+      {
+        "timestamp": 33.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 28,
+        "ssthresh": 5,
+        "rtt_ms": 99.54,
+        "rttvar_ms": 8.56,
+        "retrans": 4,
+        "bytes_acked": 473407,
+        "bytes_sent": 497078,
+        "throughput_bps": 3787263.1,
+        "throughput_mbps": 3.79,
+        "pacing_rate": 4544715.72,
+        "delivered": 15622460,
+        "lost": 5840
+      },
+      {
+        "timestamp": 34.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 29,
+        "ssthresh": 5,
+        "rtt_ms": 100.14,
+        "rttvar_ms": 2.09,
+        "retrans": 4,
+        "bytes_acked": 410568,
+        "bytes_sent": 431097,
+        "throughput_bps": 3284550.99,
+        "throughput_mbps": 3.28,
+        "pacing_rate": 3941461.19,
+        "delivered": 13959341,
+        "lost": 5840
+      },
+      {
+        "timestamp": 35.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 30,
+        "ssthresh": 5,
+        "rtt_ms": 99.47,
+        "rttvar_ms": 6.27,
+        "retrans": 4,
+        "bytes_acked": 427518,
+        "bytes_sent": 448894,
+        "throughput_bps": 3420151.89,
+        "throughput_mbps": 3.42,
+        "pacing_rate": 4104182.27,
+        "delivered": 14963164,
+        "lost": 5840
+      },
+      {
+        "timestamp": 36.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 31,
+        "ssthresh": 5,
+        "rtt_ms": 98.08,
+        "rttvar_ms": 9.92,
+        "retrans": 4,
+        "bytes_acked": 472223,
+        "bytes_sent": 495835,
+        "throughput_bps": 3777791.09,
+        "throughput_mbps": 3.78,
+        "pacing_rate": 4533349.31,
+        "delivered": 17000059,
+        "lost": 5840
+      },
+      {
+        "timestamp": 37.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 33,
+        "ssthresh": 5,
+        "rtt_ms": 100.11,
+        "rttvar_ms": 3.63,
+        "retrans": 4,
+        "bytes_acked": 484812,
+        "bytes_sent": 509053,
+        "throughput_bps": 3878499.22,
+        "throughput_mbps": 3.88,
+        "pacing_rate": 4654199.06,
+        "delivered": 17938058,
+        "lost": 5840
+      },
+      {
+        "timestamp": 38.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 35,
+        "ssthresh": 5,
+        "rtt_ms": 99.5,
+        "rttvar_ms": 6.25,
+        "retrans": 4,
+        "bytes_acked": 518880,
+        "bytes_sent": 544824,
+        "throughput_bps": 4151040.52,
+        "throughput_mbps": 4.15,
+        "pacing_rate": 4981248.63,
+        "delivered": 19717442,
+        "lost": 5840
+      },
+      {
+        "timestamp": 39.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 34,
+        "ssthresh": 5,
+        "rtt_ms": 101.46,
+        "rttvar_ms": 5.32,
+        "retrans": 4,
+        "bytes_acked": 532229,
+        "bytes_sent": 558841,
+        "throughput_bps": 4257838.57,
+        "throughput_mbps": 4.26,
+        "pacing_rate": 5109406.29,
+        "delivered": 20756963,
+        "lost": 5840
+      },
+      {
+        "timestamp": 40.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 36,
+        "ssthresh": 5,
+        "rtt_ms": 101.0,
+        "rttvar_ms": 2.31,
+        "retrans": 4,
+        "bytes_acked": 498447,
+        "bytes_sent": 523369,
+        "throughput_bps": 3987580.78,
+        "throughput_mbps": 3.99,
+        "pacing_rate": 4785096.94,
+        "delivered": 19937903,
+        "lost": 5840
+      },
+      {
+        "timestamp": 41.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 37,
+        "ssthresh": 5,
+        "rtt_ms": 101.2,
+        "rttvar_ms": 9.26,
+        "retrans": 4,
+        "bytes_acked": 490662,
+        "bytes_sent": 515195,
+        "throughput_bps": 3925300.01,
+        "throughput_mbps": 3.93,
+        "pacing_rate": 4710360.01,
+        "delivered": 20117162,
+        "lost": 5840
+      },
+      {
+        "timestamp": 42.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 40,
+        "ssthresh": 5,
+        "rtt_ms": 100.74,
+        "rttvar_ms": 1.11,
+        "retrans": 4,
+        "bytes_acked": 527404,
+        "bytes_sent": 553774,
+        "throughput_bps": 4219234.41,
+        "throughput_mbps": 4.22,
+        "pacing_rate": 5063081.29,
+        "delivered": 22150980,
+        "lost": 5840
+      },
+      {
+        "timestamp": 43.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 40,
+        "ssthresh": 5,
+        "rtt_ms": 98.36,
+        "rttvar_ms": 3.28,
+        "retrans": 4,
+        "bytes_acked": 631616,
+        "bytes_sent": 663197,
+        "throughput_bps": 5052931.1,
+        "throughput_mbps": 5.05,
+        "pacing_rate": 6063517.32,
+        "delivered": 27159504,
+        "lost": 5840
+      },
+      {
+        "timestamp": 44.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 41,
+        "ssthresh": 5,
+        "rtt_ms": 98.04,
+        "rttvar_ms": 4.4,
+        "retrans": 4,
+        "bytes_acked": 656735,
+        "bytes_sent": 689571,
+        "throughput_bps": 5253880.05,
+        "throughput_mbps": 5.25,
+        "pacing_rate": 6304656.06,
+        "delivered": 28896340,
+        "lost": 5840
+      },
+      {
+        "timestamp": 45.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 43,
+        "ssthresh": 5,
+        "rtt_ms": 100.01,
+        "rttvar_ms": 1.2,
+        "retrans": 4,
+        "bytes_acked": 675502,
+        "bytes_sent": 709277,
+        "throughput_bps": 5404022.07,
+        "throughput_mbps": 5.4,
+        "pacing_rate": 6484826.49,
+        "delivered": 30397624,
+        "lost": 5840
+      },
+      {
+        "timestamp": 46.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 43,
+        "ssthresh": 5,
+        "rtt_ms": 99.63,
+        "rttvar_ms": 1.05,
+        "retrans": 4,
+        "bytes_acked": 629539,
+        "bytes_sent": 661016,
+        "throughput_bps": 5036315.49,
+        "throughput_mbps": 5.04,
+        "pacing_rate": 6043578.59,
+        "delivered": 28958814,
+        "lost": 5840
+      },
+      {
+        "timestamp": 47.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 45,
+        "ssthresh": 5,
+        "rtt_ms": 99.78,
+        "rttvar_ms": 7.66,
+        "retrans": 4,
+        "bytes_acked": 650089,
+        "bytes_sent": 682593,
+        "throughput_bps": 5200712.24,
+        "throughput_mbps": 5.2,
+        "pacing_rate": 6240854.69,
+        "delivered": 30554184,
+        "lost": 5840
+      },
+      {
+        "timestamp": 48.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 46,
+        "ssthresh": 5,
+        "rtt_ms": 100.14,
+        "rttvar_ms": 9.3,
+        "retrans": 4,
+        "bytes_acked": 708898,
+        "bytes_sent": 744343,
+        "throughput_bps": 5671189.65,
+        "throughput_mbps": 5.67,
+        "pacing_rate": 6805427.58,
+        "delivered": 34027137,
+        "lost": 5840
+      },
+      {
+        "timestamp": 49.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 48,
+        "ssthresh": 5,
+        "rtt_ms": 100.11,
+        "rttvar_ms": 8.29,
+        "retrans": 4,
+        "bytes_acked": 750233,
+        "bytes_sent": 787745,
+        "throughput_bps": 6001868.21,
+        "throughput_mbps": 6.0,
+        "pacing_rate": 7202241.85,
+        "delivered": 36761442,
+        "lost": 5840
+      },
+      {
+        "timestamp": 50.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 49,
+        "ssthresh": 5,
+        "rtt_ms": 100.83,
+        "rttvar_ms": 7.33,
+        "retrans": 4,
+        "bytes_acked": 754858,
+        "bytes_sent": 792601,
+        "throughput_bps": 6038868.26,
+        "throughput_mbps": 6.04,
+        "pacing_rate": 7246641.91,
+        "delivered": 37742926,
+        "lost": 5840
+      },
+      {
+        "timestamp": 51.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 50,
+        "ssthresh": 5,
+        "rtt_ms": 98.34,
+        "rttvar_ms": 9.96,
+        "retrans": 4,
+        "bytes_acked": 782214,
+        "bytes_sent": 821324,
+        "throughput_bps": 6257714.03,
+        "throughput_mbps": 6.26,
+        "pacing_rate": 7509256.83,
+        "delivered": 39892926,
+        "lost": 5840
+      },
+      {
+        "timestamp": 52.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 51,
+        "ssthresh": 5,
+        "rtt_ms": 99.62,
+        "rttvar_ms": 3.77,
+        "retrans": 4,
+        "bytes_acked": 683145,
+        "bytes_sent": 717302,
+        "throughput_bps": 5465161.26,
+        "throughput_mbps": 5.47,
+        "pacing_rate": 6558193.51,
+        "delivered": 35523548,
+        "lost": 5840
+      },
+      {
+        "timestamp": 53.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 52,
+        "ssthresh": 5,
+        "rtt_ms": 99.45,
+        "rttvar_ms": 6.07,
+        "retrans": 4,
+        "bytes_acked": 836984,
+        "bytes_sent": 878833,
+        "throughput_bps": 6695876.08,
+        "throughput_mbps": 6.7,
+        "pacing_rate": 8035051.3,
+        "delivered": 44360179,
+        "lost": 5840
+      },
+      {
+        "timestamp": 54.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 52,
+        "ssthresh": 5,
+        "rtt_ms": 98.67,
+        "rttvar_ms": 2.95,
+        "retrans": 4,
+        "bytes_acked": 860094,
+        "bytes_sent": 903099,
+        "throughput_bps": 6880757.78,
+        "throughput_mbps": 6.88,
+        "pacing_rate": 8256909.34,
+        "delivered": 46445115,
+        "lost": 5840
+      },
+      {
+        "timestamp": 55.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 53,
+        "ssthresh": 5,
+        "rtt_ms": 98.2,
+        "rttvar_ms": 3.12,
+        "retrans": 4,
+        "bytes_acked": 792182,
+        "bytes_sent": 831791,
+        "throughput_bps": 6337457.57,
+        "throughput_mbps": 6.34,
+        "pacing_rate": 7604949.08,
+        "delivered": 43570020,
+        "lost": 5840
+      },
+      {
+        "timestamp": 56.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 53,
+        "ssthresh": 5,
+        "rtt_ms": 99.19,
+        "rttvar_ms": 2.03,
+        "retrans": 4,
+        "bytes_acked": 791453,
+        "bytes_sent": 831025,
+        "throughput_bps": 6331625.46,
+        "throughput_mbps": 6.33,
+        "pacing_rate": 7597950.55,
+        "delivered": 44321378,
+        "lost": 5840
+      },
+      {
+        "timestamp": 57.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 55,
+        "ssthresh": 5,
+        "rtt_ms": 100.39,
+        "rttvar_ms": 6.71,
+        "retrans": 4,
+        "bytes_acked": 807206,
+        "bytes_sent": 847566,
+        "throughput_bps": 6457649.05,
+        "throughput_mbps": 6.46,
+        "pacing_rate": 7749178.86,
+        "delivered": 46010749,
+        "lost": 5840
+      },
+      {
+        "timestamp": 58.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 55,
+        "ssthresh": 5,
+        "rtt_ms": 98.29,
+        "rttvar_ms": 7.19,
+        "retrans": 4,
+        "bytes_acked": 894788,
+        "bytes_sent": 939527,
+        "throughput_bps": 7158304.59,
+        "throughput_mbps": 7.16,
+        "pacing_rate": 8589965.51,
+        "delivered": 51897708,
+        "lost": 5840
+      },
+      {
+        "timestamp": 59.0,
+        "destination": "iperf.he.net:5201",
+        "cwnd": 28,
+        "ssthresh": 27,
+        "rtt_ms": 100.55,
+        "rttvar_ms": 2.96,
+        "retrans": 5,
+        "bytes_acked": 415451,
+        "bytes_sent": 436224,
+        "throughput_bps": 3323612.92,
+        "throughput_mbps": 3.32,
+        "pacing_rate": 3988335.5,
+        "delivered": 24511645,
+        "lost": 7300
+      }
+    ],
+    "success": true,
+    "error": null,
+    "error_msg": null
+  },
+  {
+    "server": "nyc.speedtest.clouvider.net:5201",
+    "server_host": "nyc.speedtest.clouvider.net",
+    "server_port": 5201,
+    "host": "nyc.speedtest.clouvider.net",
+    "port": 5201,
+    "duration": 60,
+    "total_bytes": 8654218,
+    "avg_throughput": 1153899.5371666667,
+    "avg_throughput_bps": 1153899.5371666667,
+    "avg_throughput_mbps": 1.1543333333333334,
+    "min_throughput_mbps": 0.2,
+    "max_throughput_mbps": 2.56,
+    "median_throughput_mbps": 1.02,
+    "p95_throughput_mbps": 2.4025,
+    "throughput_samples": [
+      [
+        0.0,
+        807681.31
+      ],
+      [
+        1.0,
+        782570.73
+      ],
+      [
+        2.0,
+        752682.91
+      ],
+      [
+        3.0,
+        753611.62
+      ],
+      [
+        4.0,
+        846757.19
+      ],
+      [
+        5.0,
+        845116.46
+      ],
+      [
+        6.0,
+        896116.26
+      ],
+      [
+        7.0,
+        1010717.71
+      ],
+      [
+        8.0,
+        1011480.26
+      ],
+      [
+        9.0,
+        1154769.64
+      ],
+      [
+        10.0,
+        496073.72
+      ],
+      [
+        11.0,
+        497840.4
+      ],
+      [
+        12.0,
+        478622.15
+      ],
+      [
+        13.0,
+        495123.89
+      ],
+      [
+        14.0,
+        565570.42
+      ],
+      [
+        15.0,
+        815331.88
+      ],
+      [
+        16.0,
+        417369.78
+      ],
+      [
+        17.0,
+        614641.91
+      ],
+      [
+        18.0,
+        581703.39
+      ],
+      [
+        19.0,
+        574191.17
+      ],
+      [
+        20.0,
+        281084.35
+      ],
+      [
+        21.0,
+        242129.34
+      ],
+      [
+        22.0,
+        255515.88
+      ],
+      [
+        23.0,
+        359171.75
+      ],
+      [
+        24.0,
+        204820.99
+      ],
+      [
+        25.0,
+        361486.47
+      ],
+      [
+        26.0,
+        520725.26
+      ],
+      [
+        27.0,
+        541403.01
+      ],
+      [
+        28.0,
+        732678.09
+      ],
+      [
+        29.0,
+        832685.95
+      ],
+      [
+        30.0,
+        928779.28
+      ],
+      [
+        31.0,
+        1025508.52
+      ],
+      [
+        32.0,
+        1138598.39
+      ],
+      [
+        33.0,
+        1113271.73
+      ],
+      [
+        34.0,
+        1297804.51
+      ],
+      [
+        35.0,
+        1387824.29
+      ],
+      [
+        36.0,
+        1344799.87
+      ],
+      [
+        37.0,
+        1348406.67
+      ],
+      [
+        38.0,
+        1449119.88
+      ],
+      [
+        39.0,
+        1560707.5
+      ],
+      [
+        40.0,
+        1659773.39
+      ],
+      [
+        41.0,
+        1729673.66
+      ],
+      [
+        42.0,
+        1943043.32
+      ],
+      [
+        43.0,
+        1859296.93
+      ],
+      [
+        44.0,
+        1776519.7
+      ],
+      [
+        45.0,
+        1856544.37
+      ],
+      [
+        46.0,
+        2085059.67
+      ],
+      [
+        47.0,
+        2400607.93
+      ],
+      [
+        48.0,
+        1120725.41
+      ],
+      [
+        49.0,
+        1253033.66
+      ],
+      [
+        50.0,
+        1297232.55
+      ],
+      [
+        51.0,
+        1609781.85
+      ],
+      [
+        52.0,
+        1806088.04
+      ],
+      [
+        53.0,
+        1912252.39
+      ],
+      [
+        54.0,
+        1878001.74
+      ],
+      [
+        55.0,
+        2248442.6
+      ],
+      [
+        56.0,
+        1955578.51
+      ],
+      [
+        57.0,
+        2514572.31
+      ],
+      [
+        58.0,
+        2555425.31
+      ],
+      [
+        59.0,
+        2447824.36
+      ]
+    ],
+    "tcp_stats": [
+      {
+        "timestamp": 0.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 10,
+        "ssthresh": 65535,
+        "rtt_ms": 148.72,
+        "rttvar_ms": 3.63,
+        "retrans": 0,
+        "bytes_acked": 100960,
+        "bytes_sent": 106008,
+        "throughput_bps": 807681.31,
+        "throughput_mbps": 0.81,
+        "pacing_rate": 969217.57,
+        "delivered": 0,
+        "lost": 0
+      },
+      {
+        "timestamp": 1.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 10,
+        "ssthresh": 65535,
+        "rtt_ms": 148.25,
+        "rttvar_ms": 1.48,
+        "retrans": 0,
+        "bytes_acked": 97821,
+        "bytes_sent": 102712,
+        "throughput_bps": 782570.73,
+        "throughput_mbps": 0.78,
+        "pacing_rate": 939084.88,
+        "delivered": 97821,
+        "lost": 0
+      },
+      {
+        "timestamp": 2.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 10,
+        "ssthresh": 65535,
+        "rtt_ms": 150.46,
+        "rttvar_ms": 3.6,
+        "retrans": 0,
+        "bytes_acked": 94085,
+        "bytes_sent": 98789,
+        "throughput_bps": 752682.91,
+        "throughput_mbps": 0.75,
+        "pacing_rate": 903219.49,
+        "delivered": 188170,
+        "lost": 0
+      },
+      {
+        "timestamp": 3.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 9,
+        "ssthresh": 65535,
+        "rtt_ms": 150.77,
+        "rttvar_ms": 7.58,
+        "retrans": 0,
+        "bytes_acked": 94201,
+        "bytes_sent": 98911,
+        "throughput_bps": 753611.62,
+        "throughput_mbps": 0.75,
+        "pacing_rate": 904333.95,
+        "delivered": 282604,
+        "lost": 0
+      },
+      {
+        "timestamp": 4.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 11,
+        "ssthresh": 65535,
+        "rtt_ms": 150.66,
+        "rttvar_ms": 4.49,
+        "retrans": 0,
+        "bytes_acked": 105844,
+        "bytes_sent": 111136,
+        "throughput_bps": 846757.19,
+        "throughput_mbps": 0.85,
+        "pacing_rate": 1016108.63,
+        "delivered": 423378,
+        "lost": 0
+      },
+      {
+        "timestamp": 5.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 11,
+        "ssthresh": 65535,
+        "rtt_ms": 149.31,
+        "rttvar_ms": 8.62,
+        "retrans": 0,
+        "bytes_acked": 105639,
+        "bytes_sent": 110921,
+        "throughput_bps": 845116.46,
+        "throughput_mbps": 0.85,
+        "pacing_rate": 1014139.75,
+        "delivered": 528197,
+        "lost": 0
+      },
+      {
+        "timestamp": 6.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 11,
+        "ssthresh": 65535,
+        "rtt_ms": 149.15,
+        "rttvar_ms": 1.63,
+        "retrans": 0,
+        "bytes_acked": 112014,
+        "bytes_sent": 117615,
+        "throughput_bps": 896116.26,
+        "throughput_mbps": 0.9,
+        "pacing_rate": 1075339.51,
+        "delivered": 672087,
+        "lost": 0
+      },
+      {
+        "timestamp": 7.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 12,
+        "ssthresh": 65535,
+        "rtt_ms": 151.48,
+        "rttvar_ms": 7.98,
+        "retrans": 0,
+        "bytes_acked": 126339,
+        "bytes_sent": 132656,
+        "throughput_bps": 1010717.71,
+        "throughput_mbps": 1.01,
+        "pacing_rate": 1212861.25,
+        "delivered": 884377,
+        "lost": 0
+      },
+      {
+        "timestamp": 8.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 13,
+        "ssthresh": 65535,
+        "rtt_ms": 148.05,
+        "rttvar_ms": 6.31,
+        "retrans": 0,
+        "bytes_acked": 126435,
+        "bytes_sent": 132756,
+        "throughput_bps": 1011480.26,
+        "throughput_mbps": 1.01,
+        "pacing_rate": 1213776.32,
+        "delivered": 1011480,
+        "lost": 0
+      },
+      {
+        "timestamp": 9.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 13,
+        "ssthresh": 65535,
+        "rtt_ms": 150.38,
+        "rttvar_ms": 1.44,
+        "retrans": 0,
+        "bytes_acked": 144346,
+        "bytes_sent": 151563,
+        "throughput_bps": 1154769.64,
+        "throughput_mbps": 1.15,
+        "pacing_rate": 1385723.57,
+        "delivered": 1299115,
+        "lost": 0
+      },
+      {
+        "timestamp": 10.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 6,
+        "ssthresh": 6,
+        "rtt_ms": 148.05,
+        "rttvar_ms": 6.26,
+        "retrans": 1,
+        "bytes_acked": 62009,
+        "bytes_sent": 65109,
+        "throughput_bps": 496073.72,
+        "throughput_mbps": 0.5,
+        "pacing_rate": 595288.47,
+        "delivered": 620092,
+        "lost": 1460
+      },
+      {
+        "timestamp": 11.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 5,
+        "ssthresh": 6,
+        "rtt_ms": 151.64,
+        "rttvar_ms": 5.04,
+        "retrans": 1,
+        "bytes_acked": 62230,
+        "bytes_sent": 65341,
+        "throughput_bps": 497840.4,
+        "throughput_mbps": 0.5,
+        "pacing_rate": 597408.48,
+        "delivered": 684530,
+        "lost": 1460
+      },
+      {
+        "timestamp": 12.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 6,
+        "ssthresh": 6,
+        "rtt_ms": 150.95,
+        "rttvar_ms": 8.63,
+        "retrans": 1,
+        "bytes_acked": 59827,
+        "bytes_sent": 62819,
+        "throughput_bps": 478622.15,
+        "throughput_mbps": 0.48,
+        "pacing_rate": 574346.58,
+        "delivered": 717933,
+        "lost": 1460
+      },
+      {
+        "timestamp": 13.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 7,
+        "ssthresh": 6,
+        "rtt_ms": 151.36,
+        "rttvar_ms": 10.0,
+        "retrans": 1,
+        "bytes_acked": 61890,
+        "bytes_sent": 64985,
+        "throughput_bps": 495123.89,
+        "throughput_mbps": 0.5,
+        "pacing_rate": 594148.66,
+        "delivered": 804576,
+        "lost": 1460
+      },
+      {
+        "timestamp": 14.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 8,
+        "ssthresh": 6,
+        "rtt_ms": 151.82,
+        "rttvar_ms": 8.31,
+        "retrans": 1,
+        "bytes_acked": 70696,
+        "bytes_sent": 74231,
+        "throughput_bps": 565570.42,
+        "throughput_mbps": 0.57,
+        "pacing_rate": 678684.5,
+        "delivered": 989748,
+        "lost": 1460
+      },
+      {
+        "timestamp": 15.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 9,
+        "ssthresh": 6,
+        "rtt_ms": 150.36,
+        "rttvar_ms": 1.66,
+        "retrans": 1,
+        "bytes_acked": 101916,
+        "bytes_sent": 107012,
+        "throughput_bps": 815331.88,
+        "throughput_mbps": 0.82,
+        "pacing_rate": 978398.25,
+        "delivered": 1528747,
+        "lost": 1460
+      },
+      {
+        "timestamp": 16.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 5,
+        "ssthresh": 5,
+        "rtt_ms": 151.83,
+        "rttvar_ms": 6.04,
+        "retrans": 2,
+        "bytes_acked": 52171,
+        "bytes_sent": 54779,
+        "throughput_bps": 417369.78,
+        "throughput_mbps": 0.42,
+        "pacing_rate": 500843.74,
+        "delivered": 834739,
+        "lost": 2920
+      },
+      {
+        "timestamp": 17.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 7,
+        "ssthresh": 5,
+        "rtt_ms": 149.28,
+        "rttvar_ms": 4.33,
+        "retrans": 2,
+        "bytes_acked": 76830,
+        "bytes_sent": 80671,
+        "throughput_bps": 614641.91,
+        "throughput_mbps": 0.61,
+        "pacing_rate": 737570.3,
+        "delivered": 1306114,
+        "lost": 2920
+      },
+      {
+        "timestamp": 18.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 7,
+        "ssthresh": 5,
+        "rtt_ms": 150.04,
+        "rttvar_ms": 5.97,
+        "retrans": 2,
+        "bytes_acked": 72712,
+        "bytes_sent": 76348,
+        "throughput_bps": 581703.39,
+        "throughput_mbps": 0.58,
+        "pacing_rate": 698044.07,
+        "delivered": 1308832,
+        "lost": 2920
+      },
+      {
+        "timestamp": 19.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 7,
+        "ssthresh": 5,
+        "rtt_ms": 150.68,
+        "rttvar_ms": 4.44,
+        "retrans": 2,
+        "bytes_acked": 71773,
+        "bytes_sent": 75362,
+        "throughput_bps": 574191.17,
+        "throughput_mbps": 0.57,
+        "pacing_rate": 689029.4,
+        "delivered": 1363704,
+        "lost": 2920
+      },
+      {
+        "timestamp": 20.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 2,
+        "ssthresh": 3,
+        "rtt_ms": 151.87,
+        "rttvar_ms": 2.69,
+        "retrans": 3,
+        "bytes_acked": 35135,
+        "bytes_sent": 36892,
+        "throughput_bps": 281084.35,
+        "throughput_mbps": 0.28,
+        "pacing_rate": 337301.22,
+        "delivered": 702710,
+        "lost": 4380
+      },
+      {
+        "timestamp": 21.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 3,
+        "ssthresh": 3,
+        "rtt_ms": 149.38,
+        "rttvar_ms": 3.94,
+        "retrans": 3,
+        "bytes_acked": 30266,
+        "bytes_sent": 31779,
+        "throughput_bps": 242129.34,
+        "throughput_mbps": 0.24,
+        "pacing_rate": 290555.2,
+        "delivered": 635589,
+        "lost": 4380
+      },
+      {
+        "timestamp": 22.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 4,
+        "ssthresh": 3,
+        "rtt_ms": 149.41,
+        "rttvar_ms": 8.71,
+        "retrans": 3,
+        "bytes_acked": 31939,
+        "bytes_sent": 33536,
+        "throughput_bps": 255515.88,
+        "throughput_mbps": 0.26,
+        "pacing_rate": 306619.06,
+        "delivered": 702668,
+        "lost": 4380
+      },
+      {
+        "timestamp": 23.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 4,
+        "ssthresh": 3,
+        "rtt_ms": 149.09,
+        "rttvar_ms": 5.19,
+        "retrans": 3,
+        "bytes_acked": 44896,
+        "bytes_sent": 47141,
+        "throughput_bps": 359171.75,
+        "throughput_mbps": 0.36,
+        "pacing_rate": 431006.1,
+        "delivered": 1032618,
+        "lost": 4380
+      },
+      {
+        "timestamp": 24.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 2,
+        "ssthresh": 2,
+        "rtt_ms": 150.75,
+        "rttvar_ms": 3.1,
+        "retrans": 4,
+        "bytes_acked": 25602,
+        "bytes_sent": 26882,
+        "throughput_bps": 204820.99,
+        "throughput_mbps": 0.2,
+        "pacing_rate": 245785.18,
+        "delivered": 614462,
+        "lost": 5840
+      },
+      {
+        "timestamp": 25.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 4,
+        "ssthresh": 2,
+        "rtt_ms": 149.86,
+        "rttvar_ms": 6.11,
+        "retrans": 4,
+        "bytes_acked": 45185,
+        "bytes_sent": 47445,
+        "throughput_bps": 361486.47,
+        "throughput_mbps": 0.36,
+        "pacing_rate": 433783.77,
+        "delivered": 1129645,
+        "lost": 5840
+      },
+      {
+        "timestamp": 26.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 6,
+        "ssthresh": 2,
+        "rtt_ms": 151.0,
+        "rttvar_ms": 6.32,
+        "retrans": 4,
+        "bytes_acked": 65090,
+        "bytes_sent": 68345,
+        "throughput_bps": 520725.26,
+        "throughput_mbps": 0.52,
+        "pacing_rate": 624870.31,
+        "delivered": 1692357,
+        "lost": 5840
+      },
+      {
+        "timestamp": 27.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 7,
+        "ssthresh": 2,
+        "rtt_ms": 149.71,
+        "rttvar_ms": 1.83,
+        "retrans": 4,
+        "bytes_acked": 67675,
+        "bytes_sent": 71059,
+        "throughput_bps": 541403.01,
+        "throughput_mbps": 0.54,
+        "pacing_rate": 649683.61,
+        "delivered": 1827235,
+        "lost": 5840
+      },
+      {
+        "timestamp": 28.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 10,
+        "ssthresh": 2,
+        "rtt_ms": 148.03,
+        "rttvar_ms": 9.0,
+        "retrans": 4,
+        "bytes_acked": 91584,
+        "bytes_sent": 96163,
+        "throughput_bps": 732678.09,
+        "throughput_mbps": 0.73,
+        "pacing_rate": 879213.7,
+        "delivered": 2564373,
+        "lost": 5840
+      },
+      {
+        "timestamp": 29.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 11,
+        "ssthresh": 2,
+        "rtt_ms": 151.13,
+        "rttvar_ms": 2.91,
+        "retrans": 4,
+        "bytes_acked": 104085,
+        "bytes_sent": 109290,
+        "throughput_bps": 832685.95,
+        "throughput_mbps": 0.83,
+        "pacing_rate": 999223.14,
+        "delivered": 3018486,
+        "lost": 5840
+      },
+      {
+        "timestamp": 30.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 11,
+        "ssthresh": 2,
+        "rtt_ms": 151.54,
+        "rttvar_ms": 1.58,
+        "retrans": 4,
+        "bytes_acked": 116097,
+        "bytes_sent": 121902,
+        "throughput_bps": 928779.28,
+        "throughput_mbps": 0.93,
+        "pacing_rate": 1114535.14,
+        "delivered": 3482922,
+        "lost": 5840
+      },
+      {
+        "timestamp": 31.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 13,
+        "ssthresh": 2,
+        "rtt_ms": 149.63,
+        "rttvar_ms": 3.46,
+        "retrans": 4,
+        "bytes_acked": 128188,
+        "bytes_sent": 134597,
+        "throughput_bps": 1025508.52,
+        "throughput_mbps": 1.03,
+        "pacing_rate": 1230610.22,
+        "delivered": 3973845,
+        "lost": 5840
+      },
+      {
+        "timestamp": 32.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 13,
+        "ssthresh": 2,
+        "rtt_ms": 148.59,
+        "rttvar_ms": 4.24,
+        "retrans": 4,
+        "bytes_acked": 142324,
+        "bytes_sent": 149441,
+        "throughput_bps": 1138598.39,
+        "throughput_mbps": 1.14,
+        "pacing_rate": 1366318.06,
+        "delivered": 4554393,
+        "lost": 5840
+      },
+      {
+        "timestamp": 33.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 15,
+        "ssthresh": 2,
+        "rtt_ms": 151.74,
+        "rttvar_ms": 5.07,
+        "retrans": 4,
+        "bytes_acked": 139158,
+        "bytes_sent": 146116,
+        "throughput_bps": 1113271.73,
+        "throughput_mbps": 1.11,
+        "pacing_rate": 1335926.07,
+        "delivered": 4592245,
+        "lost": 5840
+      },
+      {
+        "timestamp": 34.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 16,
+        "ssthresh": 2,
+        "rtt_ms": 148.82,
+        "rttvar_ms": 3.43,
+        "retrans": 4,
+        "bytes_acked": 162225,
+        "bytes_sent": 170336,
+        "throughput_bps": 1297804.51,
+        "throughput_mbps": 1.3,
+        "pacing_rate": 1557365.41,
+        "delivered": 5515669,
+        "lost": 5840
+      },
+      {
+        "timestamp": 35.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 17,
+        "ssthresh": 2,
+        "rtt_ms": 150.43,
+        "rttvar_ms": 7.09,
+        "retrans": 4,
+        "bytes_acked": 173478,
+        "bytes_sent": 182151,
+        "throughput_bps": 1387824.29,
+        "throughput_mbps": 1.39,
+        "pacing_rate": 1665389.15,
+        "delivered": 6071731,
+        "lost": 5840
+      },
+      {
+        "timestamp": 36.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 17,
+        "ssthresh": 2,
+        "rtt_ms": 148.11,
+        "rttvar_ms": 3.98,
+        "retrans": 4,
+        "bytes_acked": 168099,
+        "bytes_sent": 176504,
+        "throughput_bps": 1344799.87,
+        "throughput_mbps": 1.34,
+        "pacing_rate": 1613759.84,
+        "delivered": 6051599,
+        "lost": 5840
+      },
+      {
+        "timestamp": 37.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 18,
+        "ssthresh": 2,
+        "rtt_ms": 148.67,
+        "rttvar_ms": 7.73,
+        "retrans": 4,
+        "bytes_acked": 168550,
+        "bytes_sent": 176978,
+        "throughput_bps": 1348406.67,
+        "throughput_mbps": 1.35,
+        "pacing_rate": 1618088.0,
+        "delivered": 6236380,
+        "lost": 5840
+      },
+      {
+        "timestamp": 38.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 19,
+        "ssthresh": 2,
+        "rtt_ms": 150.29,
+        "rttvar_ms": 3.96,
+        "retrans": 4,
+        "bytes_acked": 181139,
+        "bytes_sent": 190196,
+        "throughput_bps": 1449119.88,
+        "throughput_mbps": 1.45,
+        "pacing_rate": 1738943.86,
+        "delivered": 6883319,
+        "lost": 5840
+      },
+      {
+        "timestamp": 39.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 21,
+        "ssthresh": 2,
+        "rtt_ms": 150.09,
+        "rttvar_ms": 1.86,
+        "retrans": 4,
+        "bytes_acked": 195088,
+        "bytes_sent": 204842,
+        "throughput_bps": 1560707.5,
+        "throughput_mbps": 1.56,
+        "pacing_rate": 1872849.01,
+        "delivered": 7608449,
+        "lost": 5840
+      },
+      {
+        "timestamp": 40.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 21,
+        "ssthresh": 2,
+        "rtt_ms": 148.88,
+        "rttvar_ms": 7.33,
+        "retrans": 4,
+        "bytes_acked": 207471,
+        "bytes_sent": 217845,
+        "throughput_bps": 1659773.39,
+        "throughput_mbps": 1.66,
+        "pacing_rate": 1991728.07,
+        "delivered": 8298866,
+        "lost": 5840
+      },
+      {
+        "timestamp": 41.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 22,
+        "ssthresh": 2,
+        "rtt_ms": 148.57,
+        "rttvar_ms": 8.41,
+        "retrans": 4,
+        "bytes_acked": 216209,
+        "bytes_sent": 227019,
+        "throughput_bps": 1729673.66,
+        "throughput_mbps": 1.73,
+        "pacing_rate": 2075608.39,
+        "delivered": 8864577,
+        "lost": 5840
+      },
+      {
+        "timestamp": 42.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 23,
+        "ssthresh": 2,
+        "rtt_ms": 150.4,
+        "rttvar_ms": 9.69,
+        "retrans": 4,
+        "bytes_acked": 242880,
+        "bytes_sent": 255024,
+        "throughput_bps": 1943043.32,
+        "throughput_mbps": 1.94,
+        "pacing_rate": 2331651.99,
+        "delivered": 10200977,
+        "lost": 5840
+      },
+      {
+        "timestamp": 43.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 25,
+        "ssthresh": 2,
+        "rtt_ms": 151.61,
+        "rttvar_ms": 2.14,
+        "retrans": 4,
+        "bytes_acked": 232412,
+        "bytes_sent": 244032,
+        "throughput_bps": 1859296.93,
+        "throughput_mbps": 1.86,
+        "pacing_rate": 2231156.31,
+        "delivered": 9993720,
+        "lost": 5840
+      },
+      {
+        "timestamp": 44.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 25,
+        "ssthresh": 2,
+        "rtt_ms": 151.72,
+        "rttvar_ms": 5.17,
+        "retrans": 4,
+        "bytes_acked": 222064,
+        "bytes_sent": 233168,
+        "throughput_bps": 1776519.7,
+        "throughput_mbps": 1.78,
+        "pacing_rate": 2131823.64,
+        "delivered": 9770858,
+        "lost": 5840
+      },
+      {
+        "timestamp": 45.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 25,
+        "ssthresh": 2,
+        "rtt_ms": 151.62,
+        "rttvar_ms": 5.06,
+        "retrans": 4,
+        "bytes_acked": 232068,
+        "bytes_sent": 243671,
+        "throughput_bps": 1856544.37,
+        "throughput_mbps": 1.86,
+        "pacing_rate": 2227853.24,
+        "delivered": 10443062,
+        "lost": 5840
+      },
+      {
+        "timestamp": 46.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 27,
+        "ssthresh": 2,
+        "rtt_ms": 148.71,
+        "rttvar_ms": 6.89,
+        "retrans": 4,
+        "bytes_acked": 260632,
+        "bytes_sent": 273664,
+        "throughput_bps": 2085059.67,
+        "throughput_mbps": 2.09,
+        "pacing_rate": 2502071.61,
+        "delivered": 11989093,
+        "lost": 5840
+      },
+      {
+        "timestamp": 47.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 28,
+        "ssthresh": 2,
+        "rtt_ms": 149.21,
+        "rttvar_ms": 6.03,
+        "retrans": 4,
+        "bytes_acked": 300075,
+        "bytes_sent": 315079,
+        "throughput_bps": 2400607.93,
+        "throughput_mbps": 2.4,
+        "pacing_rate": 2880729.52,
+        "delivered": 14103571,
+        "lost": 5840
+      },
+      {
+        "timestamp": 48.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 14,
+        "ssthresh": 14,
+        "rtt_ms": 150.64,
+        "rttvar_ms": 9.4,
+        "retrans": 5,
+        "bytes_acked": 140090,
+        "bytes_sent": 147095,
+        "throughput_bps": 1120725.41,
+        "throughput_mbps": 1.12,
+        "pacing_rate": 1344870.49,
+        "delivered": 6724352,
+        "lost": 7300
+      },
+      {
+        "timestamp": 49.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 15,
+        "ssthresh": 14,
+        "rtt_ms": 149.06,
+        "rttvar_ms": 4.23,
+        "retrans": 5,
+        "bytes_acked": 156629,
+        "bytes_sent": 164460,
+        "throughput_bps": 1253033.66,
+        "throughput_mbps": 1.25,
+        "pacing_rate": 1503640.39,
+        "delivered": 7674831,
+        "lost": 7300
+      },
+      {
+        "timestamp": 50.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 18,
+        "ssthresh": 14,
+        "rtt_ms": 150.85,
+        "rttvar_ms": 4.55,
+        "retrans": 5,
+        "bytes_acked": 162154,
+        "bytes_sent": 170261,
+        "throughput_bps": 1297232.55,
+        "throughput_mbps": 1.3,
+        "pacing_rate": 1556679.06,
+        "delivered": 8107703,
+        "lost": 7300
+      },
+      {
+        "timestamp": 51.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 19,
+        "ssthresh": 14,
+        "rtt_ms": 148.04,
+        "rttvar_ms": 8.03,
+        "retrans": 5,
+        "bytes_acked": 201222,
+        "bytes_sent": 211283,
+        "throughput_bps": 1609781.85,
+        "throughput_mbps": 1.61,
+        "pacing_rate": 1931738.22,
+        "delivered": 10262359,
+        "lost": 7300
+      },
+      {
+        "timestamp": 52.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 22,
+        "ssthresh": 14,
+        "rtt_ms": 151.31,
+        "rttvar_ms": 9.99,
+        "retrans": 5,
+        "bytes_acked": 225761,
+        "bytes_sent": 237049,
+        "throughput_bps": 1806088.04,
+        "throughput_mbps": 1.81,
+        "pacing_rate": 2167305.64,
+        "delivered": 11739572,
+        "lost": 7300
+      },
+      {
+        "timestamp": 53.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 23,
+        "ssthresh": 14,
+        "rtt_ms": 150.01,
+        "rttvar_ms": 1.57,
+        "retrans": 5,
+        "bytes_acked": 239031,
+        "bytes_sent": 250983,
+        "throughput_bps": 1912252.39,
+        "throughput_mbps": 1.91,
+        "pacing_rate": 2294702.86,
+        "delivered": 12668672,
+        "lost": 7300
+      },
+      {
+        "timestamp": 54.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 24,
+        "ssthresh": 14,
+        "rtt_ms": 150.36,
+        "rttvar_ms": 8.71,
+        "retrans": 5,
+        "bytes_acked": 234750,
+        "bytes_sent": 246487,
+        "throughput_bps": 1878001.74,
+        "throughput_mbps": 1.88,
+        "pacing_rate": 2253602.09,
+        "delivered": 12676511,
+        "lost": 7300
+      },
+      {
+        "timestamp": 55.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 25,
+        "ssthresh": 14,
+        "rtt_ms": 148.3,
+        "rttvar_ms": 8.62,
+        "retrans": 5,
+        "bytes_acked": 281055,
+        "bytes_sent": 295108,
+        "throughput_bps": 2248442.6,
+        "throughput_mbps": 2.25,
+        "pacing_rate": 2698131.12,
+        "delivered": 15458042,
+        "lost": 7300
+      },
+      {
+        "timestamp": 56.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 27,
+        "ssthresh": 14,
+        "rtt_ms": 148.23,
+        "rttvar_ms": 1.65,
+        "retrans": 5,
+        "bytes_acked": 244447,
+        "bytes_sent": 256669,
+        "throughput_bps": 1955578.51,
+        "throughput_mbps": 1.96,
+        "pacing_rate": 2346694.22,
+        "delivered": 13689049,
+        "lost": 7300
+      },
+      {
+        "timestamp": 57.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 29,
+        "ssthresh": 14,
+        "rtt_ms": 148.26,
+        "rttvar_ms": 6.73,
+        "retrans": 5,
+        "bytes_acked": 314321,
+        "bytes_sent": 330037,
+        "throughput_bps": 2514572.31,
+        "throughput_mbps": 2.51,
+        "pacing_rate": 3017486.77,
+        "delivered": 17916327,
+        "lost": 7300
+      },
+      {
+        "timestamp": 58.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 30,
+        "ssthresh": 14,
+        "rtt_ms": 150.7,
+        "rttvar_ms": 10.0,
+        "retrans": 5,
+        "bytes_acked": 319428,
+        "bytes_sent": 335399,
+        "throughput_bps": 2555425.31,
+        "throughput_mbps": 2.56,
+        "pacing_rate": 3066510.37,
+        "delivered": 18526833,
+        "lost": 7300
+      },
+      {
+        "timestamp": 59.0,
+        "destination": "nyc.speedtest.clouvider.net:5201",
+        "cwnd": 31,
+        "ssthresh": 14,
+        "rtt_ms": 151.2,
+        "rttvar_ms": 9.56,
+        "retrans": 5,
+        "bytes_acked": 305978,
+        "bytes_sent": 321276,
+        "throughput_bps": 2447824.36,
+        "throughput_mbps": 2.45,
+        "pacing_rate": 2937389.23,
+        "delivered": 18052704,
+        "lost": 7300
+      }
+    ],
+    "success": true,
+    "error": null,
+    "error_msg": null
+  },
+  {
+    "server": "sgp.proof.ovh.net:5201",
+    "server_host": "sgp.proof.ovh.net",
+    "server_port": 5201,
+    "host": "sgp.proof.ovh.net",
+    "port": 5201,
+    "duration": 60,
+    "total_bytes": 25186348,
+    "avg_throughput": 3358183.5961666675,
+    "avg_throughput_bps": 3358183.5961666675,
+    "avg_throughput_mbps": 3.357833333333333,
+    "min_throughput_mbps": 0.59,
+    "max_throughput_mbps": 7.77,
+    "median_throughput_mbps": 2.8600000000000003,
+    "p95_throughput_mbps": 7.459,
+    "throughput_samples": [
+      [
+        0.0,
+        587552.33
+      ],
+      [
+        1.0,
+        705332.3
+      ],
+      [
+        2.0,
+        677930.78
+      ],
+      [
+        3.0,
+        773686.08
+      ],
+      [
+        4.0,
+        780574.01
+      ],
+      [
+        5.0,
+        818256.48
+      ],
+      [
+        6.0,
+        834978.99
+      ],
+      [
+        7.0,
+        980565.67
+      ],
+      [
+        8.0,
+        950543.48
+      ],
+      [
+        9.0,
+        1149233.8
+      ],
+      [
+        10.0,
+        1108191.26
+      ],
+      [
+        11.0,
+        1054717.83
+      ],
+      [
+        12.0,
+        1038322.28
+      ],
+      [
+        13.0,
+        1303062.16
+      ],
+      [
+        14.0,
+        1299078.84
+      ],
+      [
+        15.0,
+        1253049.92
+      ],
+      [
+        16.0,
+        1542307.34
+      ],
+      [
+        17.0,
+        1647970.44
+      ],
+      [
+        18.0,
+        1690105.13
+      ],
+      [
+        19.0,
+        1854069.51
+      ],
+      [
+        20.0,
+        1740890.51
+      ],
+      [
+        21.0,
+        2145368.98
+      ],
+      [
+        22.0,
+        1910561.21
+      ],
+      [
+        23.0,
+        2172542.24
+      ],
+      [
+        24.0,
+        2153647.1
+      ],
+      [
+        25.0,
+        2348064.75
+      ],
+      [
+        26.0,
+        2234923.5
+      ],
+      [
+        27.0,
+        2745146.06
+      ],
+      [
+        28.0,
+        2754741.66
+      ],
+      [
+        29.0,
+        2659910.38
+      ],
+      [
+        30.0,
+        2968408.4
+      ],
+      [
+        31.0,
+        3114010.27
+      ],
+      [
+        32.0,
+        3471811.17
+      ],
+      [
+        33.0,
+        3856772.94
+      ],
+      [
+        34.0,
+        3407201.41
+      ],
+      [
+        35.0,
+        3996555.59
+      ],
+      [
+        36.0,
+        3669235.31
+      ],
+      [
+        37.0,
+        4166429.92
+      ],
+      [
+        38.0,
+        4658660.05
+      ],
+      [
+        39.0,
+        4996308.67
+      ],
+      [
+        40.0,
+        5054362.63
+      ],
+      [
+        41.0,
+        4913310.04
+      ],
+      [
+        42.0,
+        5434376.64
+      ],
+      [
+        43.0,
+        5122563.42
+      ],
+      [
+        44.0,
+        5333235.18
+      ],
+      [
+        45.0,
+        6553023.65
+      ],
+      [
+        46.0,
+        5797999.99
+      ],
+      [
+        47.0,
+        6507822.26
+      ],
+      [
+        48.0,
+        6060002.24
+      ],
+      [
+        49.0,
+        7628753.18
+      ],
+      [
+        50.0,
+        7353654.52
+      ],
+      [
+        51.0,
+        7451652.67
+      ],
+      [
+        52.0,
+        7774856.7
+      ],
+      [
+        53.0,
+        7695831.18
+      ],
+      [
+        54.0,
+        5156944.32
+      ],
+      [
+        55.0,
+        4564259.92
+      ],
+      [
+        56.0,
+        4898305.83
+      ],
+      [
+        57.0,
+        4848589.61
+      ],
+      [
+        58.0,
+        5282182.52
+      ],
+      [
+        59.0,
+        4838570.52
+      ]
+    ],
+    "tcp_stats": [
+      {
+        "timestamp": 0.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 11,
+        "ssthresh": 65535,
+        "rtt_ms": 199.45,
+        "rttvar_ms": 1.43,
+        "retrans": 0,
+        "bytes_acked": 73444,
+        "bytes_sent": 77116,
+        "throughput_bps": 587552.33,
+        "throughput_mbps": 0.59,
+        "pacing_rate": 705062.8,
+        "delivered": 0,
+        "lost": 0
+      },
+      {
+        "timestamp": 1.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 12,
+        "ssthresh": 65535,
+        "rtt_ms": 200.46,
+        "rttvar_ms": 9.99,
+        "retrans": 0,
+        "bytes_acked": 88166,
+        "bytes_sent": 92574,
+        "throughput_bps": 705332.3,
+        "throughput_mbps": 0.71,
+        "pacing_rate": 846398.76,
+        "delivered": 88166,
+        "lost": 0
+      },
+      {
+        "timestamp": 2.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 11,
+        "ssthresh": 65535,
+        "rtt_ms": 199.86,
+        "rttvar_ms": 5.77,
+        "retrans": 0,
+        "bytes_acked": 84741,
+        "bytes_sent": 88978,
+        "throughput_bps": 677930.78,
+        "throughput_mbps": 0.68,
+        "pacing_rate": 813516.94,
+        "delivered": 169482,
+        "lost": 0
+      },
+      {
+        "timestamp": 3.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 12,
+        "ssthresh": 65535,
+        "rtt_ms": 200.26,
+        "rttvar_ms": 5.52,
+        "retrans": 0,
+        "bytes_acked": 96710,
+        "bytes_sent": 101546,
+        "throughput_bps": 773686.08,
+        "throughput_mbps": 0.77,
+        "pacing_rate": 928423.3,
+        "delivered": 290132,
+        "lost": 0
+      },
+      {
+        "timestamp": 4.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 12,
+        "ssthresh": 65535,
+        "rtt_ms": 199.7,
+        "rttvar_ms": 7.48,
+        "retrans": 0,
+        "bytes_acked": 97571,
+        "bytes_sent": 102450,
+        "throughput_bps": 780574.01,
+        "throughput_mbps": 0.78,
+        "pacing_rate": 936688.81,
+        "delivered": 390287,
+        "lost": 0
+      },
+      {
+        "timestamp": 5.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 13,
+        "ssthresh": 65535,
+        "rtt_ms": 201.92,
+        "rttvar_ms": 5.65,
+        "retrans": 0,
+        "bytes_acked": 102282,
+        "bytes_sent": 107396,
+        "throughput_bps": 818256.48,
+        "throughput_mbps": 0.82,
+        "pacing_rate": 981907.78,
+        "delivered": 511410,
+        "lost": 0
+      },
+      {
+        "timestamp": 6.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 14,
+        "ssthresh": 65535,
+        "rtt_ms": 201.12,
+        "rttvar_ms": 5.82,
+        "retrans": 0,
+        "bytes_acked": 104372,
+        "bytes_sent": 109590,
+        "throughput_bps": 834978.99,
+        "throughput_mbps": 0.83,
+        "pacing_rate": 1001974.79,
+        "delivered": 626234,
+        "lost": 0
+      },
+      {
+        "timestamp": 7.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 16,
+        "ssthresh": 65535,
+        "rtt_ms": 200.3,
+        "rttvar_ms": 4.99,
+        "retrans": 0,
+        "bytes_acked": 122570,
+        "bytes_sent": 128699,
+        "throughput_bps": 980565.67,
+        "throughput_mbps": 0.98,
+        "pacing_rate": 1176678.8,
+        "delivered": 857994,
+        "lost": 0
+      },
+      {
+        "timestamp": 8.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 17,
+        "ssthresh": 65535,
+        "rtt_ms": 201.81,
+        "rttvar_ms": 8.16,
+        "retrans": 0,
+        "bytes_acked": 118817,
+        "bytes_sent": 124758,
+        "throughput_bps": 950543.48,
+        "throughput_mbps": 0.95,
+        "pacing_rate": 1140652.17,
+        "delivered": 950543,
+        "lost": 0
+      },
+      {
+        "timestamp": 9.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 18,
+        "ssthresh": 65535,
+        "rtt_ms": 201.08,
+        "rttvar_ms": 8.86,
+        "retrans": 0,
+        "bytes_acked": 143654,
+        "bytes_sent": 150836,
+        "throughput_bps": 1149233.8,
+        "throughput_mbps": 1.15,
+        "pacing_rate": 1379080.56,
+        "delivered": 1292888,
+        "lost": 0
+      },
+      {
+        "timestamp": 10.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 18,
+        "ssthresh": 65535,
+        "rtt_ms": 201.87,
+        "rttvar_ms": 3.88,
+        "retrans": 0,
+        "bytes_acked": 138523,
+        "bytes_sent": 145450,
+        "throughput_bps": 1108191.26,
+        "throughput_mbps": 1.11,
+        "pacing_rate": 1329829.52,
+        "delivered": 1385239,
+        "lost": 0
+      },
+      {
+        "timestamp": 11.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 18,
+        "ssthresh": 65535,
+        "rtt_ms": 199.41,
+        "rttvar_ms": 2.93,
+        "retrans": 0,
+        "bytes_acked": 131839,
+        "bytes_sent": 138431,
+        "throughput_bps": 1054717.83,
+        "throughput_mbps": 1.05,
+        "pacing_rate": 1265661.4,
+        "delivered": 1450237,
+        "lost": 0
+      },
+      {
+        "timestamp": 12.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 20,
+        "ssthresh": 65535,
+        "rtt_ms": 201.13,
+        "rttvar_ms": 9.6,
+        "retrans": 0,
+        "bytes_acked": 129790,
+        "bytes_sent": 136279,
+        "throughput_bps": 1038322.28,
+        "throughput_mbps": 1.04,
+        "pacing_rate": 1245986.73,
+        "delivered": 1557483,
+        "lost": 0
+      },
+      {
+        "timestamp": 13.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 20,
+        "ssthresh": 65535,
+        "rtt_ms": 199.95,
+        "rttvar_ms": 7.6,
+        "retrans": 0,
+        "bytes_acked": 162882,
+        "bytes_sent": 171026,
+        "throughput_bps": 1303062.16,
+        "throughput_mbps": 1.3,
+        "pacing_rate": 1563674.59,
+        "delivered": 2117476,
+        "lost": 0
+      },
+      {
+        "timestamp": 14.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 22,
+        "ssthresh": 65535,
+        "rtt_ms": 198.38,
+        "rttvar_ms": 8.54,
+        "retrans": 0,
+        "bytes_acked": 162384,
+        "bytes_sent": 170504,
+        "throughput_bps": 1299078.84,
+        "throughput_mbps": 1.3,
+        "pacing_rate": 1558894.61,
+        "delivered": 2273387,
+        "lost": 0
+      },
+      {
+        "timestamp": 15.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 24,
+        "ssthresh": 65535,
+        "rtt_ms": 201.58,
+        "rttvar_ms": 9.27,
+        "retrans": 0,
+        "bytes_acked": 156631,
+        "bytes_sent": 164462,
+        "throughput_bps": 1253049.92,
+        "throughput_mbps": 1.25,
+        "pacing_rate": 1503659.9,
+        "delivered": 2349468,
+        "lost": 0
+      },
+      {
+        "timestamp": 16.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 24,
+        "ssthresh": 65535,
+        "rtt_ms": 198.5,
+        "rttvar_ms": 9.01,
+        "retrans": 0,
+        "bytes_acked": 192788,
+        "bytes_sent": 202427,
+        "throughput_bps": 1542307.34,
+        "throughput_mbps": 1.54,
+        "pacing_rate": 1850768.81,
+        "delivered": 3084614,
+        "lost": 0
+      },
+      {
+        "timestamp": 17.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 26,
+        "ssthresh": 65535,
+        "rtt_ms": 200.54,
+        "rttvar_ms": 8.48,
+        "retrans": 0,
+        "bytes_acked": 205996,
+        "bytes_sent": 216296,
+        "throughput_bps": 1647970.44,
+        "throughput_mbps": 1.65,
+        "pacing_rate": 1977564.52,
+        "delivered": 3501937,
+        "lost": 0
+      },
+      {
+        "timestamp": 18.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 28,
+        "ssthresh": 65535,
+        "rtt_ms": 198.41,
+        "rttvar_ms": 6.18,
+        "retrans": 0,
+        "bytes_acked": 211263,
+        "bytes_sent": 221826,
+        "throughput_bps": 1690105.13,
+        "throughput_mbps": 1.69,
+        "pacing_rate": 2028126.16,
+        "delivered": 3802736,
+        "lost": 0
+      },
+      {
+        "timestamp": 19.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 30,
+        "ssthresh": 65535,
+        "rtt_ms": 199.55,
+        "rttvar_ms": 3.85,
+        "retrans": 0,
+        "bytes_acked": 231758,
+        "bytes_sent": 243346,
+        "throughput_bps": 1854069.51,
+        "throughput_mbps": 1.85,
+        "pacing_rate": 2224883.41,
+        "delivered": 4403415,
+        "lost": 0
+      },
+      {
+        "timestamp": 20.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 32,
+        "ssthresh": 65535,
+        "rtt_ms": 200.67,
+        "rttvar_ms": 4.42,
+        "retrans": 0,
+        "bytes_acked": 217611,
+        "bytes_sent": 228491,
+        "throughput_bps": 1740890.51,
+        "throughput_mbps": 1.74,
+        "pacing_rate": 2089068.61,
+        "delivered": 4352226,
+        "lost": 0
+      },
+      {
+        "timestamp": 21.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 33,
+        "ssthresh": 65535,
+        "rtt_ms": 201.2,
+        "rttvar_ms": 3.3,
+        "retrans": 0,
+        "bytes_acked": 268171,
+        "bytes_sent": 281579,
+        "throughput_bps": 2145368.98,
+        "throughput_mbps": 2.15,
+        "pacing_rate": 2574442.78,
+        "delivered": 5631593,
+        "lost": 0
+      },
+      {
+        "timestamp": 22.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 35,
+        "ssthresh": 65535,
+        "rtt_ms": 200.84,
+        "rttvar_ms": 7.98,
+        "retrans": 0,
+        "bytes_acked": 238820,
+        "bytes_sent": 250761,
+        "throughput_bps": 1910561.21,
+        "throughput_mbps": 1.91,
+        "pacing_rate": 2292673.46,
+        "delivered": 5254043,
+        "lost": 0
+      },
+      {
+        "timestamp": 23.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 37,
+        "ssthresh": 65535,
+        "rtt_ms": 201.35,
+        "rttvar_ms": 1.95,
+        "retrans": 0,
+        "bytes_acked": 271567,
+        "bytes_sent": 285146,
+        "throughput_bps": 2172542.24,
+        "throughput_mbps": 2.17,
+        "pacing_rate": 2607050.69,
+        "delivered": 6246058,
+        "lost": 0
+      },
+      {
+        "timestamp": 24.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 39,
+        "ssthresh": 65535,
+        "rtt_ms": 200.26,
+        "rttvar_ms": 4.66,
+        "retrans": 0,
+        "bytes_acked": 269205,
+        "bytes_sent": 282666,
+        "throughput_bps": 2153647.1,
+        "throughput_mbps": 2.15,
+        "pacing_rate": 2584376.52,
+        "delivered": 6460941,
+        "lost": 0
+      },
+      {
+        "timestamp": 25.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 40,
+        "ssthresh": 65535,
+        "rtt_ms": 200.18,
+        "rttvar_ms": 9.31,
+        "retrans": 0,
+        "bytes_acked": 293508,
+        "bytes_sent": 308183,
+        "throughput_bps": 2348064.75,
+        "throughput_mbps": 2.35,
+        "pacing_rate": 2817677.7,
+        "delivered": 7337702,
+        "lost": 0
+      },
+      {
+        "timestamp": 26.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 42,
+        "ssthresh": 65535,
+        "rtt_ms": 201.17,
+        "rttvar_ms": 8.04,
+        "retrans": 0,
+        "bytes_acked": 279365,
+        "bytes_sent": 293333,
+        "throughput_bps": 2234923.5,
+        "throughput_mbps": 2.23,
+        "pacing_rate": 2681908.2,
+        "delivered": 7263501,
+        "lost": 0
+      },
+      {
+        "timestamp": 27.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 43,
+        "ssthresh": 65535,
+        "rtt_ms": 201.69,
+        "rttvar_ms": 2.05,
+        "retrans": 0,
+        "bytes_acked": 343143,
+        "bytes_sent": 360300,
+        "throughput_bps": 2745146.06,
+        "throughput_mbps": 2.75,
+        "pacing_rate": 3294175.27,
+        "delivered": 9264867,
+        "lost": 0
+      },
+      {
+        "timestamp": 28.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 45,
+        "ssthresh": 65535,
+        "rtt_ms": 198.15,
+        "rttvar_ms": 4.4,
+        "retrans": 0,
+        "bytes_acked": 344342,
+        "bytes_sent": 361559,
+        "throughput_bps": 2754741.66,
+        "throughput_mbps": 2.75,
+        "pacing_rate": 3305689.99,
+        "delivered": 9641595,
+        "lost": 0
+      },
+      {
+        "timestamp": 29.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 47,
+        "ssthresh": 65535,
+        "rtt_ms": 201.2,
+        "rttvar_ms": 4.13,
+        "retrans": 0,
+        "bytes_acked": 332488,
+        "bytes_sent": 349113,
+        "throughput_bps": 2659910.38,
+        "throughput_mbps": 2.66,
+        "pacing_rate": 3191892.46,
+        "delivered": 9642175,
+        "lost": 0
+      },
+      {
+        "timestamp": 30.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 50,
+        "ssthresh": 65535,
+        "rtt_ms": 200.44,
+        "rttvar_ms": 9.74,
+        "retrans": 0,
+        "bytes_acked": 371051,
+        "bytes_sent": 389603,
+        "throughput_bps": 2968408.4,
+        "throughput_mbps": 2.97,
+        "pacing_rate": 3562090.08,
+        "delivered": 11131531,
+        "lost": 0
+      },
+      {
+        "timestamp": 31.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 54,
+        "ssthresh": 65535,
+        "rtt_ms": 199.85,
+        "rttvar_ms": 2.73,
+        "retrans": 0,
+        "bytes_acked": 389251,
+        "bytes_sent": 408713,
+        "throughput_bps": 3114010.27,
+        "throughput_mbps": 3.11,
+        "pacing_rate": 3736812.33,
+        "delivered": 12066789,
+        "lost": 0
+      },
+      {
+        "timestamp": 32.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 57,
+        "ssthresh": 65535,
+        "rtt_ms": 201.94,
+        "rttvar_ms": 2.55,
+        "retrans": 0,
+        "bytes_acked": 433976,
+        "bytes_sent": 455675,
+        "throughput_bps": 3471811.17,
+        "throughput_mbps": 3.47,
+        "pacing_rate": 4166173.41,
+        "delivered": 13887244,
+        "lost": 0
+      },
+      {
+        "timestamp": 33.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 60,
+        "ssthresh": 65535,
+        "rtt_ms": 198.48,
+        "rttvar_ms": 6.39,
+        "retrans": 0,
+        "bytes_acked": 482096,
+        "bytes_sent": 506201,
+        "throughput_bps": 3856772.94,
+        "throughput_mbps": 3.86,
+        "pacing_rate": 4628127.53,
+        "delivered": 15909188,
+        "lost": 0
+      },
+      {
+        "timestamp": 34.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 63,
+        "ssthresh": 65535,
+        "rtt_ms": 199.74,
+        "rttvar_ms": 3.63,
+        "retrans": 0,
+        "bytes_acked": 425900,
+        "bytes_sent": 447195,
+        "throughput_bps": 3407201.41,
+        "throughput_mbps": 3.41,
+        "pacing_rate": 4088641.69,
+        "delivered": 14480605,
+        "lost": 0
+      },
+      {
+        "timestamp": 35.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 65,
+        "ssthresh": 65535,
+        "rtt_ms": 201.82,
+        "rttvar_ms": 1.45,
+        "retrans": 0,
+        "bytes_acked": 499569,
+        "bytes_sent": 524547,
+        "throughput_bps": 3996555.59,
+        "throughput_mbps": 4.0,
+        "pacing_rate": 4795866.71,
+        "delivered": 17484930,
+        "lost": 0
+      },
+      {
+        "timestamp": 36.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 68,
+        "ssthresh": 65535,
+        "rtt_ms": 199.72,
+        "rttvar_ms": 4.87,
+        "retrans": 0,
+        "bytes_acked": 458654,
+        "bytes_sent": 481587,
+        "throughput_bps": 3669235.31,
+        "throughput_mbps": 3.67,
+        "pacing_rate": 4403082.37,
+        "delivered": 16511558,
+        "lost": 0
+      },
+      {
+        "timestamp": 37.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 71,
+        "ssthresh": 65535,
+        "rtt_ms": 201.71,
+        "rttvar_ms": 8.58,
+        "retrans": 0,
+        "bytes_acked": 520803,
+        "bytes_sent": 546843,
+        "throughput_bps": 4166429.92,
+        "throughput_mbps": 4.17,
+        "pacing_rate": 4999715.9,
+        "delivered": 19269738,
+        "lost": 0
+      },
+      {
+        "timestamp": 38.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 75,
+        "ssthresh": 65535,
+        "rtt_ms": 200.94,
+        "rttvar_ms": 8.94,
+        "retrans": 0,
+        "bytes_acked": 582332,
+        "bytes_sent": 611449,
+        "throughput_bps": 4658660.05,
+        "throughput_mbps": 4.66,
+        "pacing_rate": 5590392.06,
+        "delivered": 22128635,
+        "lost": 0
+      },
+      {
+        "timestamp": 39.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 78,
+        "ssthresh": 65535,
+        "rtt_ms": 200.79,
+        "rttvar_ms": 7.42,
+        "retrans": 0,
+        "bytes_acked": 624538,
+        "bytes_sent": 655765,
+        "throughput_bps": 4996308.67,
+        "throughput_mbps": 5.0,
+        "pacing_rate": 5995570.4,
+        "delivered": 24357004,
+        "lost": 0
+      },
+      {
+        "timestamp": 40.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 82,
+        "ssthresh": 65535,
+        "rtt_ms": 198.37,
+        "rttvar_ms": 8.73,
+        "retrans": 0,
+        "bytes_acked": 631795,
+        "bytes_sent": 663385,
+        "throughput_bps": 5054362.63,
+        "throughput_mbps": 5.05,
+        "pacing_rate": 6065235.15,
+        "delivered": 25271813,
+        "lost": 0
+      },
+      {
+        "timestamp": 41.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 86,
+        "ssthresh": 65535,
+        "rtt_ms": 200.68,
+        "rttvar_ms": 4.7,
+        "retrans": 0,
+        "bytes_acked": 614163,
+        "bytes_sent": 644871,
+        "throughput_bps": 4913310.04,
+        "throughput_mbps": 4.91,
+        "pacing_rate": 5895972.05,
+        "delivered": 25180713,
+        "lost": 0
+      },
+      {
+        "timestamp": 42.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 90,
+        "ssthresh": 65535,
+        "rtt_ms": 199.19,
+        "rttvar_ms": 5.18,
+        "retrans": 0,
+        "bytes_acked": 679297,
+        "bytes_sent": 713261,
+        "throughput_bps": 5434376.64,
+        "throughput_mbps": 5.43,
+        "pacing_rate": 6521251.97,
+        "delivered": 28530477,
+        "lost": 0
+      },
+      {
+        "timestamp": 43.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 95,
+        "ssthresh": 65535,
+        "rtt_ms": 200.79,
+        "rttvar_ms": 7.56,
+        "retrans": 0,
+        "bytes_acked": 640320,
+        "bytes_sent": 672336,
+        "throughput_bps": 5122563.42,
+        "throughput_mbps": 5.12,
+        "pacing_rate": 6147076.11,
+        "delivered": 27533778,
+        "lost": 0
+      },
+      {
+        "timestamp": 44.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 101,
+        "ssthresh": 65535,
+        "rtt_ms": 198.81,
+        "rttvar_ms": 7.2,
+        "retrans": 0,
+        "bytes_acked": 666654,
+        "bytes_sent": 699987,
+        "throughput_bps": 5333235.18,
+        "throughput_mbps": 5.33,
+        "pacing_rate": 6399882.22,
+        "delivered": 29332793,
+        "lost": 0
+      },
+      {
+        "timestamp": 45.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 106,
+        "ssthresh": 65535,
+        "rtt_ms": 201.96,
+        "rttvar_ms": 4.57,
+        "retrans": 0,
+        "bytes_acked": 819127,
+        "bytes_sent": 860084,
+        "throughput_bps": 6553023.65,
+        "throughput_mbps": 6.55,
+        "pacing_rate": 7863628.38,
+        "delivered": 36860758,
+        "lost": 0
+      },
+      {
+        "timestamp": 46.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 110,
+        "ssthresh": 65535,
+        "rtt_ms": 203.95,
+        "rttvar_ms": 7.0,
+        "retrans": 0,
+        "bytes_acked": 724749,
+        "bytes_sent": 760987,
+        "throughput_bps": 5797999.99,
+        "throughput_mbps": 5.8,
+        "pacing_rate": 6957599.99,
+        "delivered": 33338499,
+        "lost": 0
+      },
+      {
+        "timestamp": 47.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 116,
+        "ssthresh": 65535,
+        "rtt_ms": 208.28,
+        "rttvar_ms": 8.68,
+        "retrans": 0,
+        "bytes_acked": 813477,
+        "bytes_sent": 854151,
+        "throughput_bps": 6507822.26,
+        "throughput_mbps": 6.51,
+        "pacing_rate": 7809386.71,
+        "delivered": 38233455,
+        "lost": 0
+      },
+      {
+        "timestamp": 48.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 121,
+        "ssthresh": 65535,
+        "rtt_ms": 213.09,
+        "rttvar_ms": 4.94,
+        "retrans": 0,
+        "bytes_acked": 757500,
+        "bytes_sent": 795375,
+        "throughput_bps": 6060002.24,
+        "throughput_mbps": 6.06,
+        "pacing_rate": 7272002.69,
+        "delivered": 36360013,
+        "lost": 0
+      },
+      {
+        "timestamp": 49.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 127,
+        "ssthresh": 65535,
+        "rtt_ms": 212.52,
+        "rttvar_ms": 3.07,
+        "retrans": 0,
+        "bytes_acked": 953594,
+        "bytes_sent": 1001273,
+        "throughput_bps": 7628753.18,
+        "throughput_mbps": 7.63,
+        "pacing_rate": 9154503.82,
+        "delivered": 46726113,
+        "lost": 0
+      },
+      {
+        "timestamp": 50.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 133,
+        "ssthresh": 65535,
+        "rtt_ms": 215.35,
+        "rttvar_ms": 2.8,
+        "retrans": 0,
+        "bytes_acked": 919206,
+        "bytes_sent": 965167,
+        "throughput_bps": 7353654.52,
+        "throughput_mbps": 7.35,
+        "pacing_rate": 8824385.43,
+        "delivered": 45960340,
+        "lost": 0
+      },
+      {
+        "timestamp": 51.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 139,
+        "ssthresh": 65535,
+        "rtt_ms": 219.6,
+        "rttvar_ms": 3.3,
+        "retrans": 0,
+        "bytes_acked": 931456,
+        "bytes_sent": 978029,
+        "throughput_bps": 7451652.67,
+        "throughput_mbps": 7.45,
+        "pacing_rate": 8941983.21,
+        "delivered": 47504285,
+        "lost": 0
+      },
+      {
+        "timestamp": 52.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 147,
+        "ssthresh": 65535,
+        "rtt_ms": 222.23,
+        "rttvar_ms": 5.61,
+        "retrans": 0,
+        "bytes_acked": 971857,
+        "bytes_sent": 1020449,
+        "throughput_bps": 7774856.7,
+        "throughput_mbps": 7.77,
+        "pacing_rate": 9329828.04,
+        "delivered": 50536568,
+        "lost": 0
+      },
+      {
+        "timestamp": 53.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 154,
+        "ssthresh": 65535,
+        "rtt_ms": 226.35,
+        "rttvar_ms": 5.59,
+        "retrans": 0,
+        "bytes_acked": 961978,
+        "bytes_sent": 1010077,
+        "throughput_bps": 7695831.18,
+        "throughput_mbps": 7.7,
+        "pacing_rate": 9234997.41,
+        "delivered": 50984881,
+        "lost": 0
+      },
+      {
+        "timestamp": 54.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 80,
+        "ssthresh": 81,
+        "rtt_ms": 198.22,
+        "rttvar_ms": 8.85,
+        "retrans": 1,
+        "bytes_acked": 644618,
+        "bytes_sent": 676848,
+        "throughput_bps": 5156944.32,
+        "throughput_mbps": 5.16,
+        "pacing_rate": 6188333.19,
+        "delivered": 34809374,
+        "lost": 1460
+      },
+      {
+        "timestamp": 55.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 80,
+        "ssthresh": 81,
+        "rtt_ms": 200.94,
+        "rttvar_ms": 3.86,
+        "retrans": 1,
+        "bytes_acked": 570532,
+        "bytes_sent": 599059,
+        "throughput_bps": 4564259.92,
+        "throughput_mbps": 4.56,
+        "pacing_rate": 5477111.91,
+        "delivered": 31379286,
+        "lost": 1460
+      },
+      {
+        "timestamp": 56.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 80,
+        "ssthresh": 81,
+        "rtt_ms": 199.62,
+        "rttvar_ms": 5.99,
+        "retrans": 1,
+        "bytes_acked": 612288,
+        "bytes_sent": 642902,
+        "throughput_bps": 4898305.83,
+        "throughput_mbps": 4.9,
+        "pacing_rate": 5877966.99,
+        "delivered": 34288140,
+        "lost": 1460
+      },
+      {
+        "timestamp": 57.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 81,
+        "ssthresh": 81,
+        "rtt_ms": 199.91,
+        "rttvar_ms": 2.27,
+        "retrans": 1,
+        "bytes_acked": 606073,
+        "bytes_sent": 636377,
+        "throughput_bps": 4848589.61,
+        "throughput_mbps": 4.85,
+        "pacing_rate": 5818307.53,
+        "delivered": 34546200,
+        "lost": 1460
+      },
+      {
+        "timestamp": 58.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 83,
+        "ssthresh": 81,
+        "rtt_ms": 200.71,
+        "rttvar_ms": 6.78,
+        "retrans": 1,
+        "bytes_acked": 660272,
+        "bytes_sent": 693286,
+        "throughput_bps": 5282182.52,
+        "throughput_mbps": 5.28,
+        "pacing_rate": 6338619.03,
+        "delivered": 38295823,
+        "lost": 1460
+      },
+      {
+        "timestamp": 59.0,
+        "destination": "sgp.proof.ovh.net:5201",
+        "cwnd": 86,
+        "ssthresh": 81,
+        "rtt_ms": 199.44,
+        "rttvar_ms": 1.89,
+        "retrans": 1,
+        "bytes_acked": 604821,
+        "bytes_sent": 635062,
+        "throughput_bps": 4838570.52,
+        "throughput_mbps": 4.84,
+        "pacing_rate": 5806284.62,
+        "delivered": 35684457,
+        "lost": 1460
+      }
+    ],
+    "success": true,
+    "error": null,
+    "error_msg": null
+  }
+]
