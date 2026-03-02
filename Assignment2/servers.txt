@@ -1,0 +1,22 @@
+# Sample iPerf3 servers from https://iperf3serverlist.net/
+# Format: host:port or just host (default port 5201)
+
+# North America
+iperf3.velnet.co.uk:5201
+iperf.agg.io:5201
+bouygues.iperf.fr:5201
+
+# Europe
+ping.online.net:5201
+iperf.it-north.net:5209
+speedtest.uztelecom.uz:5200
+
+# Asia
+iperf3.moji.fr:5201
+speedtest.wtnet.de:5209
+
+# Sample public servers (may need to verify availability)
+# Add more servers from https://iperf3serverlist.net/
+
+# Note: Server availability may change over time
+# The script will automatically skip non-responsive servers

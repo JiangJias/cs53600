@@ -1,0 +1,123 @@
+Assignment 2: iPerf, TCP Statistics, and Congestion Control
+CS 536: Data Communication and Computer Networks, Spring 2026
+Instructor: Vamsi Addanki
+TAs: Gustavo Franco Camilo, Jiwon Kim, and Shilong Lei
+Due Date: March 10, 2026 @ 11:45 PM Eastern Time
+1. iPerf Throughput Application (20 points)
+(a) Write a socket program from scratch (Python). Implement a Python client that opens a
+TCP connection to the destination and continuously sends application data for a fixed experiment
+duration (e.g., 60 seconds per destination).
+• iPerf3 server compatibility.
+You must implement a Python TCP client that can correctly communicate with publicly
+available iperf3 servers listed at: https://iperf3serverlist.net/.
+Important: You are NOT allowed to run your own custom receiver to simplify the protocol.
+Your client must successfully complete a TCP test with a standard iperf3 server.
+• Your implementation must:
+(i) Establish the control connection.
+(ii) Perform the JSON-based parameter exchange required by the iperf3 protocol.
+(iii) Open the data connection.
+(iv) Transmit data continuously for a configurable duration.
+(v) Properly terminate the test following iperf3 semantics.
+• Reverse-engineering guidance:
+– You may inspect the official iperf3 source code to understand the protocol structure.
+– You may capture packet traces using tcpdump or wireshark to analyze the handshake
+and message exchange.
+– However, you may not invoke the iperf3 binary itself to run the experiment.
+– You can also take help from an LLM. Be sure to verify any generated code and understand
+it fully, as LLMs can produce incorrect or non-robust implementations.
+• Your client must robustly handle:
+– Non-responsive or overloaded servers,
+– Servers that reject parameter negotiation,
+– Connection timeouts,
+– Premature connection termination.
+(b) Destination selection. From https://iperf3serverlist.net/, pick n random destination servers
+from the list, and leave n as a command-line argument to your script. For test cases n = 10 is a
+reasonable default, but you can choose more or fewer.
+• If a listed server does not accept your connection or is rate-limiting, your script should skip
+it and automatically choose a replacement.
+(c) Measure goodput at the application. At regular intervals (e.g., every 200ms or 1s), compute
+and record:
+bytes ack’ed in the interval
+· 8 [bits/s]
+goodput(t) =
+interval length
+Plot a time series of the throughput evolution, include all destinations within the same plot and
+a summary table (min/median/avg/p95 throughput) for each destination. See “getsockopt” from
+the socket library for extracting tcp stats and bytes ack’ed.
+
+1
+
+2. TCP Stats Tracing During Transfer (40 points)
+(a) Extract TCP socket statistics periodically. While your client is sending, at the same sampling
+interval as goodput, extract TCP-layer statistics from the live socket.
+• Required: a timestamp, snd cwnd (hint: TCP INFO / TCP INFO FMT), RTT estimate (e.g.,
+srtt), and a loss signal (e.g., retransmits, lost, or delivered/retrans counters depending on
+what your platform exposes). For each sample in the log, also record the goodput (similar to
+Q1) along side other TCP stats.
+• Recommended: For each sample in the log, rttvar, pacing rate, bytes acked / bytes sent,
+and any available delivery-rate estimate.
+Store your measurements in a readable format (csv/json).
+(b) Visualization. Generate PDF plots automatically, for a single representative destination of your
+choice, showing:
+(i) Time series: snd cwnd, RTT, loss proxy, and throughput (separate plots are fine).
+(ii) Scatter plots showing relationships:
+• snd cwnd vs goodput,
+• RTT vs goodput,
+• loss signal (e.g., # retransmissions or # timeouts) vs goodput.
+(c) Observations. Explain what each of the above TCP metrics (in the visualizations) means and
+how you expect it to influence goodput in congestion avoidance, and there any anomolous behaviors
+you observed in your traces.
+
+3. ML Model + Hand-Written Congestion Avoidance Algorithm (40 points)
+(a) Build a dataset. From your traces, construct feature/label pairs at each time instance:
+X(t) = [goodput(t), RTT(t), loss(t), . . .],
+Clearly define your feature set and any preprocessing (normalization, windowing, lag features, etc.).
+The learning target is a congestion window decision i.e., predicting the next congestion window
+update:
+y(t) = ∆ snd cwnd
+(b) Train a model. Split the dataset into train-test sets, and train a predictive model that maps
+X(t) to a congestion window decision. Your model may also consider a window of the history
+as input. You may use any approach (e.g., linear regression, tree-based models, neural networks,
+transformers, reinforcement learning, LLM-based reasoning, etc.). Your model must be trained
+using the following objective function:
+η(t − 1) = goodput(t) − α · RTT(t) − β · loss(t)
+η evaluates the objective corresponding to the window update obtained at t − 1, and the observed
+performance at t.
+Plot the snd cwnd timeseries of the dataset for a single destination including both train and test
+time horizons. Separately, now starting at the test split and for each time interval, take a prediction
+from your model and plot the new snd cwnd obtained from predictions (within the same plot as
+the previous timeseries). Repeat this for five traces corresponding to five destinations, and plot
+separately.
+(c) Extract a congestion window update algorithm: Based on the predicted cwnd evolution you
+observe, write down a window update algorithm. The observations must be grounded in the main
+principles of network latencies, queueing, the bandwidth-delay product, and the relation between
+cwnd and goodput.
+Note: In-principle, a similar learned model can be used “online” to update cwnd of TCP within
+the kernel e.g., eBPF from the user-space. In order to limit the scope of this assignment, we will
+simply consider the offline predictions, observations and extracting a hand-written algorithm from
+the observations.
+2
+
+Report
+These experiments should be fully automated using a script (e.g., Python, Bash, etc.). The input
+to the script should be a file containing the list of ip addresses to perform iperf tests, any other
+command line arguments if needed. The script should also invoke plotting, and generate pdf plots
+all at once. The same script should invoke training, testing, and plotting for the ML model in Q3.
+The codebase should include all inputs and scripts required to re-run the experiments and generate
+plots (all in one-shot).
+Use Docker (“FROM ubuntu:24.04”) to containerize your code and experiments, and include the
+Dockerfile in your repo. The Docker image should be runnable on any machine with Docker
+installed, and should execute the full experiment pipeline when run. The Docker container standardizes the user-space environment (Python, libraries, scripts). However, because the container
+uses the host Linux kernel, TCP behavior and TCP INFO fields depend on the host system. This
+assignment must be executed on:
+• a Linux machine (Ubuntu 22.04+ recommended), or
+• Windows using WSL2 (which provides a real Linux kernel).
+Please include a github/gitlab link in your report: For questions purely related to coding, include
+a link or line ranges to the relevant code section in your repo (e.g., a specific function or class).
+For questions related to observations and interpretations, please write directly in the report. For
+questions related to visualizations, please include the plots in the report and also point to the
+relevant code sections that generate the plots.
+
+3
+
+
