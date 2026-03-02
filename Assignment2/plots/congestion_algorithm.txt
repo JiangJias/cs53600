@@ -1,0 +1,80 @@
+
+Learned Congestion Window Update Algorithm:
+
+Based on the ML model predictions and network principles, the following algorithm
+is derived for updating the congestion window (cwnd):
+
+1. Congestion Avoidance Phase (no loss detected):
+   - If RTT is stable and throughput is increasing:
+     * Increase cwnd by 1/cwnd per ACK (additive increase)
+     * This follows the AIMD principle for gradual probing
+
+   - If cwnd * RTT < Bandwidth-Delay Product (BDP):
+     * More aggressive increase: cwnd += 2/cwnd
+     * Still below network capacity, room to grow faster
+
+   - If throughput is high but RTT increasing significantly:
+     * Slow down growth: cwnd += 0.5/cwnd
+     * Queue building up, approaching congestion
+
+2. Loss Detection:
+   - If incremental retransmissions > 0:
+     * Multiplicative decrease: cwnd = max(cwnd / 2, ssthresh)
+     * Set ssthresh = cwnd
+     * This follows AIMD's multiplicative decrease
+
+   - If timeout (severe loss):
+     * More aggressive: cwnd = 1 (restart from slow start)
+     * ssthresh = cwnd / 2
+
+3. RTT-based Adjustments:
+   - Monitor RTT variance (rttvar)
+   - If rttvar is high (network instability):
+     * Be more conservative: reduce cwnd growth rate by 50%
+
+   - If RTT exceeds baseline by > 20%:
+     * Potential queue buildup
+     * Reduce cwnd by 10% proactively
+
+4. Throughput-based Optimization:
+   - Objective: Maximize (throughput - α*RTT - β*loss)
+   - If throughput not improving for 5 intervals despite cwnd increase:
+     * Stop increasing cwnd (reached bottleneck)
+     * May be bandwidth-limited or other bottleneck
+
+   - If throughput decreasing while cwnd increasing:
+     * Reduce cwnd by 20%
+     * Indicates over-subscription or competing flows
+
+5. Practical Bounds:
+   - cwnd_min = 1 packet (never go below this)
+   - cwnd_max = min(receiver window, 65535 packets)
+   - Ensure cwnd remains within valid range at all times
+
+Key Observations from Data:
+   - throughput_mbps: correlation = nan
+   - rtt_ms: correlation = nan
+   - rttvar_ms: correlation = nan
+   - cwnd: correlation = nan
+   - ssthresh: correlation = nan
+   - retrans: correlation = nan
+   - lost: correlation = nan
+   - loss_incremental: correlation = nan
+   - unacked: correlation = nan
+   - sacked: correlation = nan
+
+Network Principles Applied:
+1. Bandwidth-Delay Product: cwnd should roughly equal BDP = bandwidth * RTT
+   for optimal throughput without excessive queueing.
+
+2. Queue Management: Increasing RTT with stable bandwidth indicates queue buildup.
+   Reduce sending rate to avoid bufferbloat.
+
+3. Loss as Congestion Signal: Packet loss (retransmissions) indicates network
+   congestion. Respond by reducing cwnd multiplicatively.
+
+4. Additive Increase, Multiplicative Decrease (AIMD): Ensures fairness among
+   competing flows and stability of the network.
+
+5. Trade-off: Higher cwnd → higher throughput but also higher RTT (queueing).
+   Algorithm balances this trade-off based on objective function.
