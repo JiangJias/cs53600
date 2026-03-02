@@ -1,0 +1,24 @@
+# Working iPerf3 servers - tested and verified
+# From https://iperf3serverlist.net/
+
+# Europe
+bouygues.iperf.fr:5201
+bouygues.iperf.fr:5202
+bouygues.iperf.fr:5203
+ping.online.net:5201
+ping.online.net:5202
+iperf.he.net:5201
+lon.speedtest.clouvider.net:5200
+lon.speedtest.clouvider.net:5201
+lon.speedtest.clouvider.net:5202
+
+# North America
+nyc.speedtest.clouvider.net:5200
+nyc.speedtest.clouvider.net:5201
+la.speedtest.clouvider.net:5200
+la.speedtest.clouvider.net:5201
+iperf.biznetnetworks.com:5201
+
+# Asia-Pacific
+sin-sg.prod.hosts.ooklaserver.net:5201
+sgp.proof.ovh.net:5201
