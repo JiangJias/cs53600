@@ -69,6 +69,8 @@ class IperfClient:
     #     try:
     #         # TCP_CONGESTION is typically defined as 13 in <netinet/tcp.h> on Linux
     #         TCP_CONGESTION = getattr(socket, 'TCP_CONGESTION', 13)
+    #         sock.setsockopt(socket.IPPROTO_TCP, TCP_CONGESTION, b'cubic')
+    #         sock.setsockopt(socket.IPPROTO_TCP, TCP_CONGESTION, b'reno')
     #         sock.setsockopt(socket.IPPROTO_TCP, TCP_CONGESTION, cc_algo.encode())
     #         self.logger.info(f"Successfully set TCP Congestion Control to: {cc_algo}")
     #     except Exception as e:
