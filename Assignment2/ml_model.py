@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
 Machine Learning model for congestion window prediction
-Trains a model to predict congestion window updates based on network metrics
+Trains a model to predict congestion window updates based on network metrics,
+strictly following the required chronological train/test split and custom objective function.
 """
 
 import numpy as np
@@ -83,6 +84,7 @@ class CongestionWindowPredictor:
                     'lost': current.get('lost', 0),
                     'unacked': current.get('unacked', 0),
                     'sacked': current.get('sacked', 0),
+                    'timestamp': current.get('timestamp', i)
                 }
 
                 # Calculate incremental loss
@@ -92,14 +94,14 @@ class CongestionWindowPredictor:
                 else:
                     features['loss_incremental'] = 0
 
-                # Label: change in congestion window
+                # Label: change in congestion window (y(t) = delta snd_cwnd)
                 current_cwnd = current.get('snd_cwnd', 0)
                 next_cwnd = next_stat.get('snd_cwnd', 0)
                 delta_cwnd = next_cwnd - current_cwnd
 
                 features['delta_cwnd'] = delta_cwnd
 
-                # Calculate objective function (for evaluation)
+                # Calculate objective function eta(t) for training evaluation
                 next_throughput = next_stat.get('throughput_bps', 0)
                 next_rtt = next_stat.get('rtt', 0) / 1000  # ms
                 next_loss = features['loss_incremental']
@@ -116,40 +118,48 @@ class CongestionWindowPredictor:
 
         return df, destinations
 
-    def split_data(self, df: pd.DataFrame, test_size: float = 0.3,
-                   split_by_destination: bool = True) -> Tuple[pd.DataFrame, pd.DataFrame]:
+    def split_data(self, df: pd.DataFrame, test_size: float = 0.3) -> Tuple[pd.DataFrame, pd.DataFrame]:
         """
-        Split data into train and test sets
-
+        Split data into train and test sets chronologically for EACH destination.
+        This strictly follows the assignment requirement to show "train and test time horizons"
+        for a single destination.
+        
         Args:
             df: DataFrame with all data
-            test_size: Proportion of data for testing
-            split_by_destination: If True, split by destination (some destinations in test)
-
+            test_size: Proportion of chronological data for testing (tail end of the trace)
+            
         Returns:
             train_df, test_df
         """
-        if split_by_destination:
-            # Split by destinations
-            destinations = df['destination'].unique()
-            n_test = max(1, int(len(destinations) * test_size))
-            np.random.seed(42)
-            test_destinations = np.random.choice(destinations, n_test, replace=False)
+        train_dfs = []
+        test_dfs = []
 
-            train_df = df[~df['destination'].isin(test_destinations)]
-            test_df = df[df['destination'].isin(test_destinations)]
+        # Get all unique destination servers
+        destinations = df['destination'].unique()
 
-            self.logger.info(f"Split by destination: {len(train_df)} train, {len(test_df)} test samples")
-        else:
-            # Random split
-            train_df, test_df = train_test_split(df, test_size=test_size, random_state=42)
-            self.logger.info(f"Random split: {len(train_df)} train, {len(test_df)} test samples")
+        for dest in destinations:
+            # Extract data for a single destination (maintaining chronological order)
+            dest_df = df[df['destination'] == dest].copy()
+            
+            # Calculate the time split index
+            n_total = len(dest_df)
+            n_train = int(n_total * (1 - test_size))
+            
+            # Chronological split: first part for training, second part for testing
+            train_dfs.append(dest_df.iloc[:n_train])
+            test_dfs.append(dest_df.iloc[n_train:])
+
+        # Combine all destination splits
+        train_df = pd.concat(train_dfs, ignore_index=True)
+        test_df = pd.concat(test_dfs, ignore_index=True)
+
+        self.logger.info(f"Chronological split applied: {len(train_df)} train, {len(test_df)} test samples")
 
         return train_df, test_df
 
     def train_model(self, train_df: pd.DataFrame, model_type: str = 'random_forest'):
         """
-        Train ML model to predict congestion window changes
+        Train ML model to predict congestion window changes using the custom objective.
 
         Args:
             train_df: Training data
@@ -163,6 +173,18 @@ class CongestionWindowPredictor:
 
         X_train = train_df[self.feature_names].values
         y_train = train_df['delta_cwnd'].values
+        
+        # ---------------------------------------------------------
+        # Core Modification: Use eta(t-1) as the objective function
+        # ---------------------------------------------------------
+        # Extract the calculated objective function (eta)
+        eta = train_df['objective'].values
+        
+        # Convert eta into sample weights. 
+        # Shift the objective to be strictly positive so that decisions resulting 
+        # in higher eta (better throughput, lower RTT/loss) are weighted heavier during training.
+        eta_min = np.min(eta)
+        sample_weights = eta - eta_min + 1e-5  # Add small epsilon to prevent absolute zero weight
 
         # Normalize features
         X_train_scaled = self.scaler.fit_transform(X_train)
@@ -187,8 +209,10 @@ class CongestionWindowPredictor:
             from sklearn.linear_model import Ridge
             self.model = Ridge(alpha=1.0)
 
-        self.logger.info(f"Training {model_type} model...")
-        self.model.fit(X_train_scaled, y_train)
+        self.logger.info(f"Training {model_type} model using objective-based sample weights...")
+        
+        # Fit model using the sample weights derived from the custom objective function
+        self.model.fit(X_train_scaled, y_train, sample_weight=sample_weights)
 
         # Evaluate on training data
         y_train_pred = self.model.predict(X_train_scaled)
@@ -231,7 +255,8 @@ class CongestionWindowPredictor:
                             train_test_split_idx: int = None,
                             filename: str = None):
         """
-        Plot actual vs predicted cwnd time series for a single destination
+        Plot actual vs predicted cwnd time series for a single destination,
+        including both train and test time horizons.
 
         Args:
             df: DataFrame with data for this destination
@@ -245,14 +270,14 @@ class CongestionWindowPredictor:
         dest_df = df[df['destination'] == destination].copy()
         dest_df = dest_df.sort_values('timestamp') if 'timestamp' in dest_df.columns else dest_df
 
-        # Get predictions
+        # Get predictions across the entire horizon
         y_pred = self.predict(dest_df)
 
         # Reconstruct actual cwnd timeseries
         actual_cwnd = dest_df['cwnd'].values
 
-        # Reconstruct predicted cwnd timeseries
-        predicted_cwnd = [actual_cwnd[0]]  # Start with same initial value
+        # Reconstruct predicted cwnd timeseries starting from the initial value
+        predicted_cwnd = [actual_cwnd[0]] 
         for delta in y_pred:
             new_cwnd = max(1, predicted_cwnd[-1] + delta)  # Ensure cwnd >= 1
             predicted_cwnd.append(new_cwnd)
@@ -263,12 +288,16 @@ class CongestionWindowPredictor:
         indices = np.arange(len(actual_cwnd))
 
         plt.plot(indices, actual_cwnd, label='Actual cwnd', linewidth=2, alpha=0.8)
-        plt.plot(indices, predicted_cwnd, label='Predicted cwnd',
-                linewidth=2, alpha=0.8, linestyle='--')
-
+        
+        # We only care about the predictions starting from the test split to demonstrate the requirement
         if train_test_split_idx is not None:
+            plt.plot(indices[train_test_split_idx:], predicted_cwnd[train_test_split_idx:], 
+                     label='Predicted cwnd (Test Horizon)', linewidth=2, alpha=0.8, linestyle='--', color='orange')
             plt.axvline(x=train_test_split_idx, color='red', linestyle=':',
                        linewidth=2, label='Train/Test Split')
+        else:
+            plt.plot(indices, predicted_cwnd, label='Predicted cwnd',
+                    linewidth=2, alpha=0.8, linestyle='--')
 
         plt.xlabel('Time Index')
         plt.ylabel('Congestion Window (packets)')
@@ -285,16 +314,17 @@ class CongestionWindowPredictor:
 
     def plot_predictions_for_destinations(self, df: pd.DataFrame,
                                          destinations: List[str],
-                                         train_destinations: List[str]):
+                                         test_size: float = 0.3):
         """Plot predictions for multiple destinations"""
         for dest in destinations[:5]:  # Plot up to 5 destinations
             dest_df = df[df['destination'] == dest]
+            if len(dest_df) == 0:
+                continue
 
-            # Determine if this is a training or test destination
-            is_train = dest in train_destinations
-            train_test_idx = None if is_train else 0
+            # Calculate the independent split index for this specific destination
+            train_test_idx = int(len(dest_df) * (1 - test_size))
 
-            self.plot_cwnd_comparison(dest_df, dest, train_test_idx)
+            self.plot_cwnd_comparison(dest_df, dest, train_test_split_idx=train_test_idx)
 
     def save_model(self, filename: str = "cwnd_model.pkl"):
         """Save trained model and scaler"""
@@ -436,10 +466,9 @@ def run_ml_pipeline(results_dir: str = "results",
     results = predictor.load_results()
     df, destinations = predictor.prepare_dataset(results, alpha=alpha, beta=beta)
 
-    # Split data
-    train_df, test_df = predictor.split_data(df, test_size=0.3, split_by_destination=True)
-    train_destinations = train_df['destination'].unique().tolist()
-    test_destinations = test_df['destination'].unique().tolist()
+    # Split data chronologically for each destination
+    test_size = 0.3
+    train_df, test_df = predictor.split_data(df, test_size=test_size)
 
     # Train model
     predictor.train_model(train_df, model_type='random_forest')
@@ -447,8 +476,8 @@ def run_ml_pipeline(results_dir: str = "results",
     # Evaluate
     metrics = predictor.evaluate_model(test_df)
 
-    # Plot predictions
-    predictor.plot_predictions_for_destinations(df, destinations, train_destinations)
+    # Plot predictions for up to 5 destinations, drawing the split line
+    predictor.plot_predictions_for_destinations(df, destinations, test_size=test_size)
 
     # Save model
     predictor.save_model()
