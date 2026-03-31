@@ -49,12 +49,33 @@ class IperfClient:
         self.cookie = None
         self.logger = logging.getLogger(f"IperfClient[{server_host}]")
 
+    # Assignment 2
     def _create_socket(self, timeout: int = 10) -> socket.socket:
         """Create a TCP socket with timeout"""
         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         sock.setsockopt(socket.IPPROTO_TCP, socket.TCP_NODELAY, 1)
         sock.settimeout(timeout)
         return sock
+
+    # Assignment 3
+    # def _create_socket(self, timeout: int = 15, cc_algo: str = 'mlcc') -> socket.socket:
+    #     """
+    #     Create a TCP socket and optionally set a specific congestion control algorithm.
+    #     """
+    #     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    #     sock.setsockopt(socket.IPPROTO_TCP, socket.TCP_NODELAY, 1)
+        
+    #     # Core bonus requirement: Select the congestion control algorithm in the socket application
+    #     try:
+    #         # TCP_CONGESTION is typically defined as 13 in <netinet/tcp.h> on Linux
+    #         TCP_CONGESTION = getattr(socket, 'TCP_CONGESTION', 13)
+    #         sock.setsockopt(socket.IPPROTO_TCP, TCP_CONGESTION, cc_algo.encode())
+    #         self.logger.info(f"Successfully set TCP Congestion Control to: {cc_algo}")
+    #     except Exception as e:
+    #         self.logger.warning(f"Could not set CC algorithm to {cc_algo}. Ensure you are on Linux/WSL. Error: {e}")
+
+    #     sock.settimeout(timeout)
+    #     return sock
 
     def _send_json(self, sock: socket.socket, data: Dict) -> bool:
         """Send JSON message with length prefix (iPerf3 protocol)"""
