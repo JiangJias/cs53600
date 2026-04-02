@@ -97,17 +97,31 @@ class IperfClient:
         try:
             # Read 4-byte length prefix
             length_data = self._recv_exact(sock, 4)
-            if not length_data:
+            if not length_data or len(length_data) != 4:
+                self.logger.debug(f"Failed to receive length prefix (got {len(length_data) if length_data else 0} bytes)")
                 return None
+
             length = struct.unpack('!I', length_data)[0]
+
+            # Sanity check on length
+            if length == 0 or length > 1000000:  # Max 1MB
+                self.logger.error(f"Invalid JSON length: {length}")
+                return None
 
             # Read JSON data
             json_bytes = self._recv_exact(sock, length)
-            if not json_bytes:
+            if not json_bytes or len(json_bytes) != length:
+                self.logger.debug(f"Failed to receive JSON data (expected {length}, got {len(json_bytes) if json_bytes else 0} bytes)")
                 return None
 
             json_str = json_bytes.decode('utf-8')
             return json.loads(json_str)
+        except socket.timeout:
+            self.logger.error(f"Timeout while receiving JSON")
+            return None
+        except json.JSONDecodeError as e:
+            self.logger.error(f"Failed to parse JSON: {e}")
+            return None
         except Exception as e:
             self.logger.error(f"Failed to receive JSON: {e}")
             return None
@@ -116,37 +130,50 @@ class IperfClient:
         """Receive exactly size bytes from socket"""
         data = b''
         while len(data) < size:
-            chunk = sock.recv(size - len(data))
-            if not chunk:
+            try:
+                chunk = sock.recv(size - len(data))
+                if not chunk:
+                    self.logger.debug(f"Connection closed while receiving (got {len(data)}/{size} bytes)")
+                    return None
+                data += chunk
+            except socket.timeout:
+                self.logger.debug(f"Timeout while receiving (got {len(data)}/{size} bytes)")
                 return None
-            data += chunk
+            except socket.error as e:
+                self.logger.debug(f"Socket error while receiving: {e}")
+                return None
         return data
 
     def _establish_control_connection(self) -> bool:
         """Establish control connection with iPerf3 server"""
         try:
-            self.control_sock = self._create_socket()
+            self.control_sock = self._create_socket(timeout=15)
             self.logger.info(f"Connecting to {self.server_host}:{self.server_port}")
             self.control_sock.connect((self.server_host, self.server_port))
             self.logger.info("Control connection established")
             return True
+        except socket.timeout:
+            self.logger.error(f"Connection timeout to {self.server_host}:{self.server_port}")
+            return False
+        except ConnectionRefusedError:
+            self.logger.error(f"Connection refused by {self.server_host}:{self.server_port}")
+            return False
         except Exception as e:
             self.logger.error(f"Failed to establish control connection: {e}")
             return False
 
     def _exchange_parameters(self) -> bool:
-        """Exchange test parameters with iPerf3 server"""
+        """Exchange test parameters with iPerf3 server (skip greeting, send directly)"""
         try:
-            # Receive server's initial greeting
-            greeting = self._recv_json(self.control_sock)
-            if not greeting:
-                self.logger.error("No greeting from server")
-                return False
+            # Set a reasonable timeout for parameter exchange
+            original_timeout = self.control_sock.gettimeout()
+            self.control_sock.settimeout(10)
 
-            self.logger.debug(f"Server greeting: {greeting}")
-            self.cookie = greeting.get('cookie')
+            # Skip waiting for server greeting - directly send client parameters
+            # Some servers don't send greeting or expect client to send first
+            self.logger.debug("Skipping server greeting, sending parameters directly...")
 
-            # Send client parameters
+            # Send client parameters immediately
             client_params = {
                 'tcp': True,
                 'omit': 0,
@@ -161,20 +188,31 @@ class IperfClient:
 
             self.logger.info("Parameters sent to server")
 
-            # Receive server response
+            # Try to receive server response (may include cookie)
             response = self._recv_json(self.control_sock)
-            if not response:
-                self.logger.error("No response from server")
-                return False
+            if response:
+                self.logger.debug(f"Server response: {response}")
 
-            self.logger.debug(f"Server response: {response}")
+                # Extract cookie if present
+                self.cookie = response.get('cookie')
 
-            # Check for errors
-            if 'error' in response:
-                self.logger.error(f"Server error: {response['error']}")
-                return False
+                # Check for errors
+                if 'error' in response:
+                    self.logger.error(f"Server error: {response['error']}")
+                    return False
+            else:
+                # Some servers may not respond with JSON, just continue
+                self.logger.warning("No JSON response from server, will attempt to continue")
+                # Generate a simple cookie for identification
+                self.cookie = f"client_{int(time.time())}"
 
+            # Restore original timeout
+            self.control_sock.settimeout(original_timeout)
             return True
+
+        except socket.timeout:
+            self.logger.error("Timeout during parameter exchange")
+            return False
         except Exception as e:
             self.logger.error(f"Parameter exchange failed: {e}")
             return False
@@ -231,25 +269,42 @@ class IperfClient:
     def _open_data_connection(self) -> bool:
         """Open data connection for sending data"""
         try:
-            # Wait for server to tell us to start
+            # Try to wait for server start message (optional - use short timeout)
+            self.control_sock.settimeout(2)
             start_msg = self._recv_json(self.control_sock)
-            if not start_msg:
-                self.logger.error("No start message from server")
-                return False
-
-            self.logger.debug(f"Start message: {start_msg}")
+            if start_msg:
+                self.logger.debug(f"Start message: {start_msg}")
+            else:
+                # No start message - proceed anyway
+                self.logger.debug("No start message from server, proceeding to create data connection")
 
             # Create data connection
             self.data_sock = self._create_socket(timeout=30)
             self.data_sock.connect((self.server_host, self.server_port))
 
-            # Send cookie to identify this test
+            # Send cookie to identify this test (if we have one)
             if self.cookie:
-                cookie_bytes = self.cookie.encode('utf-8')
-                self.data_sock.sendall(cookie_bytes)
+                try:
+                    cookie_bytes = self.cookie.encode('utf-8')
+                    self.data_sock.sendall(cookie_bytes)
+                    self.logger.debug(f"Sent cookie: {self.cookie}")
+                except Exception as e:
+                    self.logger.warning(f"Could not send cookie: {e}, continuing anyway")
 
             self.logger.info("Data connection established")
             return True
+        except socket.timeout:
+            # Timeout on start message is OK - try to continue
+            self.logger.debug("Timeout waiting for start message, attempting direct connection")
+            try:
+                # Create data connection anyway
+                self.data_sock = self._create_socket(timeout=30)
+                self.data_sock.connect((self.server_host, self.server_port))
+                self.logger.info("Data connection established (no start message)")
+                return True
+            except Exception as e:
+                self.logger.error(f"Failed to open data connection: {e}")
+                return False
         except Exception as e:
             self.logger.error(f"Failed to open data connection: {e}")
             return False
